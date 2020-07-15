@@ -1,4 +1,4 @@
-import 'package:food_delivery_app/generated/i18n.dart';
+import 'package:App_360/generated/i18n.dart';
 
 class Address {
   String id;

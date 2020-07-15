@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smartersvision.food_delivery_app"
+    package="com.breezy.app_360_deliveries"
     android:versionCode="2"
     android:versionName="1.8.0" >
 
@@ -29,11 +29,11 @@
          FlutterApplication and put your custom class here.
     -->
     <application
-        android:name="com.smartersvision.food_delivery_app.Application"
+        android:name="com.breezy.app_360_deliveries.Application"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Multi-Restaurants Flutter App" >
+        android:label="App 360 Deliveries" >
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBuOIA_i51EQR0sBEOz6oQFp2dYIJPFVvU" />
@@ -42,7 +42,7 @@
             android:resource="@mipmap/ic_notification" />
 
         <activity
-            android:name="com.smartersvision.food_delivery_app.MainActivity"
+            android:name="com.breezy.app_360_deliveries.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
@@ -132,7 +132,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.smartersvision.food_delivery_app.firebaseinitprovider"
+            android:authorities="com.breezy.app_360_deliveries.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
         <uses-library

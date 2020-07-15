@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.smartersvision.food_delivery_app"
+3    package="com.breezy.app_360_deliveries"
 4    android:versionCode="2"
 5    android:versionName="1.8.0" >
 6
@@ -21,21 +21,21 @@
 16-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:6:5-80
 16-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:6:22-78
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:22:5-79
-17-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:22:22-76
+17-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:22:5-79
+17-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:22:22-76
 18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-18-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:24:5-68
-18-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:24:22-65
+18-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:24:5-68
+18-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:24:22-65
 19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-19-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:26:5-82
-19-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:26:22-79
+19-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:26:22-79
 20
 21    <uses-feature
-21-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/94adfabd63332e5e31c30f45ec3c64e4/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 22        android:glEsVersion="0x00020000"
-22-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/94adfabd63332e5e31c30f45ec3c64e4/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 23        android:required="true" />
-23-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/94adfabd63332e5e31c30f45ec3c64e4/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 24    <!--
 25 io.flutter.app.FlutterApplication is an android.app.Application that
 26         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -45,15 +45,15 @@
 30    -->
 31    <application
 31-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:13:5-46:19
-32        android:name="com.smartersvision.food_delivery_app.Application"
+32        android:name="com.breezy.app_360_deliveries.Application"
 32-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:14:9-36
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/0c8e6b7f573aa648e11c24ddaa1ee45f/core-1.0.0/AndroidManifest.xml:22:18-86
+33-->[androidx.core:core:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfd8fe2d3f2ad013bf090050c3819a3c/core-1.0.0/AndroidManifest.xml:22:18-86
 34        android:debuggable="true"
 35        android:icon="@mipmap/ic_launcher"
 35-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:16:9-43
-36        android:label="Multi-Restaurants Flutter App" >
-36-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:15:9-54
+36        android:label="App 360 Deliveries" >
+36-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:15:9-43
 37        <meta-data
 37-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:18:9-19:77
 38            android:name="com.google.android.geo.API_KEY"
@@ -69,7 +69,7 @@
 43
 44        <activity
 44-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:23:9-45:20
-45            android:name="com.smartersvision.food_delivery_app.MainActivity"
+45            android:name="com.breezy.app_360_deliveries.MainActivity"
 45-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:24:13-41
 46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 46-->/home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:27:13-144
@@ -148,9 +148,9 @@
 88            android:name="com.google.firebase.components.ComponentDiscoveryService"
 88-->[:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-89
 89            android:directBootAware="true"
-89-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1dc1c8bab528f3d376a8ae3d36e2e3bd/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+89-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
 90            android:exported="false" >
-90-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ca5d4e8c000548745e1b7f7470876a4b/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:37:13-37
+90-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:37:13-37
 91            <meta-data
 91-->[:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
 92                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
@@ -158,29 +158,29 @@
 93                android:value="com.google.firebase.components.ComponentRegistrar" />
 93-->[:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
 94            <meta-data
-94-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ca5d4e8c000548745e1b7f7470876a4b/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:38:13-40:85
+94-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:38:13-40:85
 95                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-95-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ca5d4e8c000548745e1b7f7470876a4b/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:39:17-119
+95-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:39:17-119
 96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ca5d4e8c000548745e1b7f7470876a4b/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:40:17-82
+96-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:40:17-82
 97            <meta-data
-97-->[com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/54c79463a70365d8471bc09d60ebf549/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+97-->[com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
 98                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-98-->[com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/54c79463a70365d8471bc09d60ebf549/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+98-->[com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
 99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/54c79463a70365d8471bc09d60ebf549/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+99-->[com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
 100            <meta-data
-100-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:32:13-34:85
+100-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:32:13-34:85
 101                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-101-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:33:17-96
+101-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:33:17-96
 102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:34:17-82
+102-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:34:17-82
 103            <meta-data
-103-->[com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/056e43c28e9a0f75e8543133fda92b39/firebase-installations-16.1.0/AndroidManifest.xml:17:13-19:85
+103-->[com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:17:13-19:85
 104                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-104-->[com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/056e43c28e9a0f75e8543133fda92b39/firebase-installations-16.1.0/AndroidManifest.xml:18:17-127
+104-->[com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:18:17-127
 105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/056e43c28e9a0f75e8543133fda92b39/firebase-installations-16.1.0/AndroidManifest.xml:19:17-82
+105-->[com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:19:17-82
 106        </service>
 107
 108        <activity
@@ -196,11 +196,11 @@
 114             but set to not exported to explicitly avoid allowing another app to call it.
 115        -->
 116        <service
-116-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ca5d4e8c000548745e1b7f7470876a4b/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:28:9-34:19
+116-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:28:9-34:19
 117            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-117-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ca5d4e8c000548745e1b7f7470876a4b/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:29:13-82
+117-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:29:13-82
 118            android:exported="false" >
-118-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ca5d4e8c000548745e1b7f7470876a4b/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:30:13-37
+118-->[com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:30:13-37
 119            <intent-filter android:priority="-500" >
 119-->[:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
 120                <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -210,83 +210,83 @@
 122        </service>
 123
 124        <receiver
-124-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:37:9-44:20
+124-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:37:9-44:20
 125            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-125-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:38:13-78
+125-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:38:13-78
 126            android:exported="true"
-126-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:39:13-36
+126-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:39:13-36
 127            android:permission="com.google.android.c2dm.permission.SEND" >
-127-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:40:13-73
+127-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:40:13-73
 128            <intent-filter>
-128-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:41:13-43:29
+128-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:41:13-43:29
 129                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-129-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:42:17-81
-129-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dafcf4ab5be89b319964bbcd40125ff6/firebase-iid-20.1.2/AndroidManifest.xml:42:25-78
+129-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:42:17-81
+129-->[com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:42:25-78
 130            </intent-filter>
 131        </receiver>
 132
 133        <provider
-133-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1dc1c8bab528f3d376a8ae3d36e2e3bd/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+133-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
 134            android:name="com.google.firebase.provider.FirebaseInitProvider"
-134-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1dc1c8bab528f3d376a8ae3d36e2e3bd/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-135            android:authorities="com.smartersvision.food_delivery_app.firebaseinitprovider"
-135-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1dc1c8bab528f3d376a8ae3d36e2e3bd/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+134-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+135            android:authorities="com.breezy.app_360_deliveries.firebaseinitprovider"
+135-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
 136            android:exported="false"
-136-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1dc1c8bab528f3d376a8ae3d36e2e3bd/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+136-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
 137            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
-137-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1dc1c8bab528f3d376a8ae3d36e2e3bd/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+137-->[com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 138        <uses-library
-138-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/94adfabd63332e5e31c30f45ec3c64e4/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+138-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 139            android:name="org.apache.http.legacy"
-139-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/94adfabd63332e5e31c30f45ec3c64e4/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+139-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 140            android:required="false" />
-140-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/94adfabd63332e5e31c30f45ec3c64e4/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+140-->[com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 141
 142        <activity
-142-->[com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/391ce708467440f061c3decc8bc7736c/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+142-->[com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 143            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-143-->[com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/391ce708467440f061c3decc8bc7736c/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+143-->[com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 144            android:exported="false"
-144-->[com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/391ce708467440f061c3decc8bc7736c/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+144-->[com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-145-->[com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/391ce708467440f061c3decc8bc7736c/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+145-->[com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 146
 147        <meta-data
-147-->[com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4f6a315156df05029cd883307fc8163c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+147-->[com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 148            android:name="com.google.android.gms.version"
-148-->[com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4f6a315156df05029cd883307fc8163c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+148-->[com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 149            android:value="@integer/google_play_services_version" />
-149-->[com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4f6a315156df05029cd883307fc8163c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+149-->[com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 150
 151        <service
-151-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d6f00a27ef4673d364c9a515e8196f2d/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+151-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
 152            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-152-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d6f00a27ef4673d364c9a515e8196f2d/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+152-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
 153            android:exported="false" >
-153-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d6f00a27ef4673d364c9a515e8196f2d/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+153-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
 154            <meta-data
-154-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d6f00a27ef4673d364c9a515e8196f2d/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+154-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
 155                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-155-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d6f00a27ef4673d364c9a515e8196f2d/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+155-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
 156                android:value="cct" />
-156-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d6f00a27ef4673d364c9a515e8196f2d/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+156-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
 157        </service>
 158        <service
-158-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9c90ad351c2379b15d306b04eeec524/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+158-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
 159            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-159-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9c90ad351c2379b15d306b04eeec524/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+159-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
 160            android:exported="false"
-160-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9c90ad351c2379b15d306b04eeec524/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+160-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
 161            android:permission="android.permission.BIND_JOB_SERVICE" >
-161-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9c90ad351c2379b15d306b04eeec524/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+161-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
 162        </service>
 163
 164        <receiver
-164-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9c90ad351c2379b15d306b04eeec524/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+164-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
 165            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-165-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9c90ad351c2379b15d306b04eeec524/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+165-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
 166            android:exported="false" />
-166-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9c90ad351c2379b15d306b04eeec524/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+166-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
 167    </application>
 168
 169</manifest>

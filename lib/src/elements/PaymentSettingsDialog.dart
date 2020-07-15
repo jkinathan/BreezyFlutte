@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/generated/i18n.dart';
-
+import 'package:App_360/generated/i18n.dart';
 import '../models/credit_card.dart';
 
 class PaymentSettingsDialog extends StatefulWidget {

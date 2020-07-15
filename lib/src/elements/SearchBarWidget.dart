@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/generated/i18n.dart';
-
+import 'package:App_360/generated/i18n.dart';
 import '../elements/SearchWidget.dart';
 
 class SearchBarWidget extends StatelessWidget {

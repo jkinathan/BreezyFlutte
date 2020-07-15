@@ -1,4 +1,4 @@
-package com.smartersvision.food_delivery_app
+package com.breezy.app_360_deliveries
 import android.os.Bundle
 
 import io.flutter.app.FlutterApplication

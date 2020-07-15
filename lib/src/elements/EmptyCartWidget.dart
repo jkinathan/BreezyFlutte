@@ -1,8 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/generated/i18n.dart';
-
+import 'package:App_360/generated/i18n.dart';
 import '../helpers/app_config.dart' as config;
 
 class EmptyCartWidget extends StatefulWidget {
