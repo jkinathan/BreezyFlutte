@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/profile_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
+import '../elements/DrawerWidget.dart';
 import '../elements/OrderItemWidget.dart';
 import '../elements/PermissionDeniedWidget.dart';
 import '../elements/ProfileAvatarWidget.dart';
@@ -29,10 +30,12 @@ class _ProfileWidgetState extends StateMVC<ProfileWidget> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context).copyWith(dividerColor: Colors.transparent);
     return Scaffold(
+      key: _con.scaffoldKey,
+      drawer: DrawerWidget(),
       appBar: AppBar(
         leading: new IconButton(
           icon: new Icon(Icons.sort, color: Theme.of(context).primaryColor),
-          onPressed: () => widget.parentScaffoldKey.currentState.openDrawer(),
+          onPressed: () => _con.scaffoldKey.currentState.openDrawer(),
         ),
         automaticallyImplyLeading: false,
         backgroundColor: Theme.of(context).accentColor,
@@ -46,7 +49,6 @@ class _ProfileWidgetState extends StateMVC<ProfileWidget> {
           new ShoppingCartButtonWidget(iconColor: Theme.of(context).primaryColor, labelColor: Theme.of(context).hintColor),
         ],
       ),
-      key: _con.scaffoldKey,
       body: currentUser.value.apiToken == null
           ? PermissionDeniedWidget()
           : SingleChildScrollView(

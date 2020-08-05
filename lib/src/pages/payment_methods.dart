@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 
+import '../../generated/i18n.dart';
 import '../elements/PaymentMethodListItemWidget.dart';
 import '../elements/SearchBarWidget.dart';
 import '../elements/ShoppingCartButtonWidget.dart';
@@ -9,7 +9,7 @@ import '../models/route_argument.dart';
 import '../repository/settings_repository.dart';
 
 class PaymentMethodsWidget extends StatefulWidget {
-  RouteArgument routeArgument;
+  final RouteArgument routeArgument;
 
   PaymentMethodsWidget({Key key, this.routeArgument}) : super(key: key);
 
@@ -25,11 +25,11 @@ class _PaymentMethodsWidgetState extends State<PaymentMethodsWidget> {
     list = new PaymentMethodList();
     if (!setting.value.payPalEnabled)
       list.paymentsList.removeWhere((element) {
-        return element.name == "PayPal";
+        return element.id == "paypal";
       });
     if (!setting.value.stripeEnabled)
       list.paymentsList.removeWhere((element) {
-        return element.name == "Visa Card" || element.name == "MasterCard";
+        return element.id == "visacard" || element.id == "mastercard";
       });
     super.initState();
   }

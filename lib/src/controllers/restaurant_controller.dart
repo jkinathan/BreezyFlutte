@@ -9,6 +9,7 @@ import '../models/review.dart';
 import '../repository/food_repository.dart';
 import '../repository/gallery_repository.dart';
 import '../repository/restaurant_repository.dart';
+import '../repository/settings_repository.dart';
 
 class RestaurantController extends ControllerMVC {
   Restaurant restaurant;
@@ -24,7 +25,7 @@ class RestaurantController extends ControllerMVC {
   }
 
   void listenForRestaurant({String id, String message}) async {
-    final Stream<Restaurant> stream = await getRestaurant(id);
+    final Stream<Restaurant> stream = await getRestaurant(id, deliveryAddress.value);
     stream.listen((Restaurant _restaurant) {
       setState(() => restaurant = _restaurant);
     }, onError: (a) {

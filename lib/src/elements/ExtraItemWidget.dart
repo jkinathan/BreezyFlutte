@@ -4,8 +4,8 @@ import '../helpers/helper.dart';
 import '../models/extra.dart';
 
 class ExtraItemWidget extends StatefulWidget {
-  Extra extra;
-  VoidCallback onChanged;
+  final Extra extra;
+  final VoidCallback onChanged;
 
   ExtraItemWidget({
     Key key,
@@ -81,7 +81,7 @@ class _ExtraItemWidgetState extends State<ExtraItemWidget> with SingleTickerProv
                 width: 60,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(60)),
-                  image: DecorationImage(image: NetworkImage(widget.extra.image.thumb), fit: BoxFit.cover),
+                  image: DecorationImage(image: NetworkImage(widget.extra.image?.thumb), fit: BoxFit.cover),
                 ),
               ),
               Container(
@@ -112,7 +112,7 @@ class _ExtraItemWidgetState extends State<ExtraItemWidget> with SingleTickerProv
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        widget.extra.name,
+                        widget.extra?.name,
                         overflow: TextOverflow.ellipsis,
                         maxLines: 2,
                         style: Theme.of(context).textTheme.subhead,

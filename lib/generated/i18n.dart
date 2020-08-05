@@ -13,7 +13,8 @@ class S implements WidgetsLocalizations {
 
   static S current;
 
-  static const GeneratedLocalizationsDelegate delegate = GeneratedLocalizationsDelegate();
+  static const GeneratedLocalizationsDelegate delegate =
+    GeneratedLocalizationsDelegate();
 
   static S of(BuildContext context) => Localizations.of<S>(context, S);
 
@@ -23,28 +24,50 @@ class S implements WidgetsLocalizations {
   String get about => "About";
   String get add => "Add";
   String get add_delivery_address => "Add Delivery Address";
+  String get add_new_delivery_address => "Add new delivery address";
   String get add_to_cart => "Add to Cart";
   String get address => "Address";
   String get addresses_refreshed_successfuly => "Addresses refreshed successfuly";
+  String get all => "All";
   String get all_menu => "All Menu";
   String get app_language => "App Language";
   String get app_settings => "App Settings";
   String get application_preferences => "Application Preferences";
+  String get apply_filters => "Apply Filters";
   String get cancel => "Cancel";
+  String get card_number => "CARD NUMBER";
   String get cart => "Cart";
   String get carts_refreshed_successfuly => "Carts refreshed successfully";
   String get cash_on_delivery => "Cash on delivery";
   String get category => "Category";
   String get category_refreshed_successfuly => "Category refreshed successfully";
   String get checkout => "Checkout";
+  String get clear => "Clear";
   String get click_on_the_stars_below_to_leave_comments => "Click on the stars below to leave comments";
+  String get click_to_confirm_your_address_and_pay_or_long_press => "Click to confirm your address and pay or Long press to edit your address";
+  String get click_to_pay_cash_on_delivery => "Click to pay cash on delivery";
+  String get click_to_pay_on_pickup => "Click to pay on pickup";
+  String get click_to_pay_with_your_mastercard => "Click to pay with your MasterCard";
+  String get click_to_pay_with_your_paypal_account => "Click to pay with your PayPal account";
+  String get click_to_pay_with_your_visa_card => "Click to pay with your Visa Card";
   String get close => "Close";
+  String get closed => "Closed";
   String get confirm_payment => "Confirm Payment";
+  String get confirm_your_delivery_address => "Confirm your delivery address";
   String get confirmation => "Confirmation";
+  String get cuisines => "Cuisines";
+  String get current_location => "Current location";
+  String get cvc => "CVC";
+  String get cvv => "CVV";
   String get dark_mode => "Dark Mode";
   String get default_credit_card => "Default Credit Card";
+  String get deliverable => "Deliverable";
+  String get delivery => "Delivery";
+  String get delivery_address => "Delivery Address";
+  String get delivery_address_removed_successfully => "Delivery Address removed successfully";
   String get delivery_addresses => "Delivery Addresses";
   String get delivery_fee => "Delivery Fee";
+  String get delivery_or_pickup => "Delivery or Pickup";
   String get description => "Description";
   String get discover__explorer => "Discover & Explorer";
   String get dont_have_any_item_in_the_notification_list => "D'ont have any item in the notification list";
@@ -56,12 +79,18 @@ class S implements WidgetsLocalizations {
   String get email_to_reset_password => "Email to reset password";
   String get english => "English";
   String get error_verify_email_settings => "Error! Verify email settings";
+  String get exp_date => "Exp Date";
+  String get expiry_date => "EXPIRY DATE";
   String get extras => "Extras";
   String get faq => "Faq";
   String get favorite_foods => "Favorite Foods";
   String get favorites => "Favorites";
   String get featured_foods => "Featured Foods";
+  String get fields => "Fields";
+  String get filter => "Filter";
   String get food_categories => "Food Categories";
+  String get foods_result => "Foods result";
+  String get foods_results => "Foods Results";
   String get full_address => "Full Address";
   String get full_name => "Full name";
   String get g => "g";
@@ -72,6 +101,7 @@ class S implements WidgetsLocalizations {
   String get hint_full_address => "12 Street, City 21663, Country";
   String get home => "Home";
   String get home_address => "Home Address";
+  String get how_would_you_rate_this_restaurant => "How would you rate this restaurant ?";
   String get how_would_you_rate_this_restaurant_ => "How would you rate this restaurant ?";
   String get i_dont_have_an_account => "I don't have an account?";
   String get i_forgot_password => "I forgot password ?";
@@ -79,8 +109,10 @@ class S implements WidgetsLocalizations {
   String get i_remember_my_password_return_to_login => "I remember my password return to login";
   String get information => "Information";
   String get ingredients => "Ingredients";
+  String get items => "Items";
   String get john_doe => "John Doe";
   String get keep_your_old_meals_of_this_restaurant => "Keep your old meals of this restaurant";
+  String get km => "Km";
   String get languages => "Languages";
   String get lets_start_with_login => "Let's Start with Login!";
   String get lets_start_with_register => "Let's Start with register!";
@@ -90,10 +122,14 @@ class S implements WidgetsLocalizations {
   String get long_press_to_edit_item_swipe_item_to_delete_it => "Long press to edit item, swipe item to delete it";
   String get longpress_on_the_food_to_add_suplements => "Longpress on the food to add suplements";
   String get maps_explorer => "Maps Explorer";
+  String get mastercard => "MasterCard";
   String get menu => "Menu";
+  String get mi => "mi";
   String get most_popular => "Most Popular";
   String get multirestaurants => "Multi-Restaurants";
   String get my_orders => "My Orders";
+  String get near_to => "Near to";
+  String get near_to_your_current_location => "Near to your current location";
   String get new_address_added_successfully => "New Address added successfully";
   String get new_order_from_client => "New order from client";
   String get not_a_valid_address => "Not a valid address";
@@ -104,9 +140,13 @@ class S implements WidgetsLocalizations {
   String get not_a_valid_full_name => "Not a valid full name";
   String get not_a_valid_number => "Not a valid number";
   String get not_a_valid_phone => "Not a valid phone";
+  String get not_deliverable => "Not Deliverable";
   String get notifications => "Notifications";
   String get notifications_refreshed_successfuly => "Notifications refreshed successfully";
+  String get number => "Number";
   String get nutrition => "Nutrition";
+  String get open => "Open";
+  String get opened_restaurants => "Opened Restaurants";
   String get or_checkout_with => "Or Checkout With";
   String get order_id => "Order Id";
   String get order_refreshed_successfuly => "Order refreshed successfully";
@@ -114,13 +154,18 @@ class S implements WidgetsLocalizations {
   String get ordered_by_nearby_first => "Ordered by Nearby first";
   String get orders_refreshed_successfuly => "Orders refreshed successfully";
   String get password => "Password";
+  String get pay_on_pickup => "Pay on Pickup";
+  String get payment_card_updated_successfully => "Payment card updated successfully";
   String get payment_mode => "Payment Mode";
   String get payment_options => "Payment Options";
   String get payment_settings => "Payment Settings";
   String get payment_settings_updated_successfully => "Payment settings updated successfully";
   String get payments_settings => "Payments Settings";
+  String get paypal => "PayPal";
   String get paypal_payment => "PayPal Payment";
   String get phone => "Phone";
+  String get pickup => "Pickup";
+  String get pickup_your_food_from_the_restaurant => "Pickup your food from the restaurant";
   String get profile => "Profile";
   String get profile_settings => "Profile Settings";
   String get profile_settings_updated_successfully => "Profile settings updated successfully";
@@ -133,6 +178,9 @@ class S implements WidgetsLocalizations {
   String get reset_cart => "Reset Cart?";
   String get reset_your_cart_and_order_meals_form_this_restaurant => "Reset your cart and order meals form this restaurant";
   String get restaurant_refreshed_successfuly => "Restaurant refreshed successfully";
+  String get restaurants_near_to => "Restaurants near to";
+  String get restaurants_near_to_your_current_location => "Restaurants near to your current location";
+  String get restaurants_results => "Restaurants Results";
   String get reviews => "Reviews";
   String get reviews_refreshed_successfully => "Reviews refreshed successfully!";
   String get save => "Save";
@@ -143,6 +191,7 @@ class S implements WidgetsLocalizations {
   String get select_your_preferred_payment_mode => "Select your preferred payment mode";
   String get send_password_reset_link => "Send link";
   String get settings => "Settings";
+  String get shopping => "Shopping";
   String get shopping_cart => "Shopping Cart";
   String get should_be_a_valid_email => "Should be a valid email";
   String get should_be_more_than_3_characters => "Should be more than 3 characters";
@@ -158,6 +207,10 @@ class S implements WidgetsLocalizations {
   String get the_address_updated_successfully => "The address updated successfully";
   String get the_food_has_been_rated_successfully => "The food has been rated successfully";
   String get the_restaurant_has_been_rated_successfully => "The restaurant has been rated successfully";
+  String get this_account_not_exist => "This account not exist";
+  String get this_email_account_exists => "This email account exists";
+  String get this_food_was_added_to_cart => "This food was added to cart";
+  String get this_restaurant_is_closed_ => "This restaurant is closed !";
   String get top_restaurants => "Top Restaurants";
   String get total => "Total";
   String get tracking_order => "Tracking Order";
@@ -168,15 +221,16 @@ class S implements WidgetsLocalizations {
   String get verify_your_internet_connection => "Verify your internet connection";
   String get verify_your_quantity_and_click_checkout => "Verify your quantity and click checkout";
   String get version => "Version";
+  String get visa_card => "Visa Card";
   String get welcome => "Welcome";
   String get what_they_say => "What They Say ?";
   String get wrong_email_or_password => "Wrong email or password";
-  String get you_can_discover_restaurants =>
-      "You can discover restaurants & fastfood arround you and choose you best meal after few minutes we prepare and delivere it for you";
+  String get you_can_discover_restaurants => "You can discover restaurants & fastfood arround you and choose you best meal after few minutes we prepare and delivere it for you";
   String get you_must_add_foods_of_the_same_restaurants_choose_one => "You must add foods of the same restaurants choose one restaurants only!";
   String get you_must_signin_to_access_to_this_section => "You must sign-in to access to this section";
   String get your_address => "Your Address";
   String get your_biography => "Your biography";
+  String get your_credit_card_not_valid => "Your credit card not valid";
   String get your_order_has_been_successfully_submitted => "Your order has been successfully submitted!";
   String get your_reset_link_has_been_sent_to_your_email => "Your reset link has been sent to your email";
   String the_food_was_removed_from_your_cart(String foodName) => "The $foodName was removed from your cart";
@@ -408,6 +462,8 @@ class $ar extends S {
   String get tax => "ضريبة";
   @override
   String get paypal_payment => "الدفع بواسطة Paypal";
+  @override
+  String get cuisines => "Cuisines";
   @override
   String get log_out => "تسجيل الخروج";
   @override
@@ -733,6 +789,8 @@ class $ko extends S {
   @override
   String get paypal_payment => "페이팔 결제";
   @override
+  String get cuisines => "Cuisines";
+  @override
   String get log_out => "로그아웃";
   @override
   String get nutrition => "영양";
@@ -1035,8 +1093,7 @@ class $pt extends S {
   @override
   String get reviews => "Rever";
   @override
-  String get you_can_discover_restaurants =>
-      "Você pode descobrir restaurantes e fastfood ao seu redor e escolher sua melhor refeição após alguns minutos, nós preparamos e entregamos para você";
+  String get you_can_discover_restaurants => "Você pode descobrir restaurantes e fastfood ao seu redor e escolher sua melhor refeição após alguns minutos, nós preparamos e entregamos para você";
   @override
   String get add_delivery_address => "Add Delivery Address";
   @override
@@ -1057,6 +1114,8 @@ class $pt extends S {
   String get tax => "IMPOSTO";
   @override
   String get paypal_payment => "Pagamento PayPal";
+  @override
+  String get cuisines => "Cuisines";
   @override
   String get log_out => "Sair";
   @override
@@ -1360,8 +1419,7 @@ class $in extends S {
   @override
   String get reviews => "Reviews";
   @override
-  String get you_can_discover_restaurants =>
-      "You can discover restaurants & fastfood arround you and choose you best meal after few minutes we prepare and delivere it for you";
+  String get you_can_discover_restaurants => "You can discover restaurants & fastfood arround you and choose you best meal after few minutes we prepare and delivere it for you";
   @override
   String get add_delivery_address => "Add Delivery Address";
   @override
@@ -1382,6 +1440,8 @@ class $in extends S {
   String get tax => "TAX";
   @override
   String get paypal_payment => "PayPal Payment";
+  @override
+  String get cuisines => "Cuisines";
   @override
   String get log_out => "Log out";
   @override
@@ -1689,8 +1749,7 @@ class $fr extends S {
   @override
   String get reviews => "Avis";
   @override
-  String get you_can_discover_restaurants =>
-      "Vous pouvez découvrir les restaurants et les fastfoods autour de vous et choisir votre meilleur repas après quelques minutes, nous le préparons et vous le livrons";
+  String get you_can_discover_restaurants => "Vous pouvez découvrir les restaurants et les fastfoods autour de vous et choisir votre meilleur repas après quelques minutes, nous le préparons et vous le livrons";
   @override
   String get add_delivery_address => "Add Delivery Address";
   @override
@@ -1711,6 +1770,8 @@ class $fr extends S {
   String get tax => "IMPÔT";
   @override
   String get paypal_payment => "Paiement PayPal";
+  @override
+  String get cuisines => "Cuisines";
   @override
   String get log_out => "Connectez - Out";
   @override
@@ -2014,8 +2075,7 @@ class $es extends S {
   @override
   String get reviews => "Comentarios";
   @override
-  String get you_can_discover_restaurants =>
-      "Puede descubrir restaurantes y comida rápida a su alrededor y elegir su mejor comida después de unos minutos, la preparamos y la entregamos para usted.";
+  String get you_can_discover_restaurants => "Puede descubrir restaurantes y comida rápida a su alrededor y elegir su mejor comida después de unos minutos, la preparamos y la entregamos para usted.";
   @override
   String get add_delivery_address => "Add Delivery Address";
   @override
@@ -2036,6 +2096,8 @@ class $es extends S {
   String get tax => "IMPUESTO";
   @override
   String get paypal_payment => "Pago de PayPal";
+  @override
+  String get cuisines => "Cuisines";
   @override
   String get log_out => "Cerrar sesión";
   @override
@@ -2192,7 +2254,7 @@ class GeneratedLocalizationsDelegate extends LocalizationsDelegate<S> {
           S.current = const $es();
           return SynchronousFuture<S>(S.current);
         default:
-        // NO-OP.
+          // NO-OP.
       }
     }
     S.current = const S();
@@ -2250,4 +2312,8 @@ class GeneratedLocalizationsDelegate extends LocalizationsDelegate<S> {
   }
 }
 
-String getLang(Locale l) => l == null ? null : l.countryCode != null && l.countryCode.isEmpty ? l.languageCode : l.toString();
+String getLang(Locale l) => l == null
+  ? null
+  : l.countryCode != null && l.countryCode.isEmpty
+    ? l.languageCode
+    : l.toString();

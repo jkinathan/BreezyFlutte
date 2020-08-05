@@ -4,7 +4,6 @@ import 'package:mvc_pattern/mvc_pattern.dart';
 import '../../generated/i18n.dart';
 import '../models/cart.dart';
 import '../repository/cart_repository.dart';
-import '../repository/settings_repository.dart' as settingRepo;
 
 class CartController extends ControllerMVC {
   List<Cart> carts = <Cart>[];
@@ -33,7 +32,9 @@ class CartController extends ControllerMVC {
         content: Text(S.current.verify_your_internet_connection),
       ));
     }, onDone: () {
-      calculateSubtotal();
+      if (carts.isNotEmpty) {
+        calculateSubtotal();
+      }
       if (message != null) {
         scaffoldKey.currentState.showSnackBar(SnackBar(
           content: Text(message),
@@ -77,7 +78,7 @@ class CartController extends ControllerMVC {
       subTotal += cart.quantity * cart.food.price;
     });
     deliveryFee = carts[0].food.restaurant.deliveryFee;
-    taxAmount = (subTotal + deliveryFee) * settingRepo.setting.value.defaultTax / 100;
+    taxAmount = (subTotal + deliveryFee) * carts[0].food.restaurant.defaultTax / 100;
     total = subTotal + taxAmount + deliveryFee;
     setState(() {});
   }

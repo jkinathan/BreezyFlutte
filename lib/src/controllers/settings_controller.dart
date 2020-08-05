@@ -19,9 +19,7 @@ class SettingsController extends ControllerMVC {
   void update(User user) async {
     user.deviceToken = null;
     repository.update(user).then((value) {
-      setState(() {
-        //this.favorite = value;
-      });
+      setState(() {});
       scaffoldKey.currentState.showSnackBar(SnackBar(
         content: Text(S.current.profile_settings_updated_successfully),
       ));

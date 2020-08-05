@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/cart_controller.dart';
 import '../elements/CartItemWidget.dart';
 import '../elements/EmptyCartWidget.dart';
 import '../helpers/helper.dart';
 import '../models/route_argument.dart';
-import '../repository/settings_repository.dart';
 
 class CartWidget extends StatefulWidget {
-  RouteArgument routeArgument;
+  final RouteArgument routeArgument;
   CartWidget({Key key, this.routeArgument}) : super(key: key);
 
   @override
@@ -65,7 +64,7 @@ class _CartWidgetState extends StateMVC<CartWidget> {
                   fit: StackFit.expand,
                   children: <Widget>[
                     Container(
-                      margin: EdgeInsets.only(bottom: 150),
+                      margin: EdgeInsets.only(bottom: 165),
                       padding: EdgeInsets.only(bottom: 15),
                       child: SingleChildScrollView(
                         padding: EdgeInsets.symmetric(vertical: 10),
@@ -128,7 +127,7 @@ class _CartWidgetState extends StateMVC<CartWidget> {
                     Positioned(
                       bottom: 0,
                       child: Container(
-                        height: 185,
+                        height: 195,
                         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                         decoration: BoxDecoration(
                             color: Theme.of(context).primaryColor,
@@ -167,7 +166,7 @@ class _CartWidgetState extends StateMVC<CartWidget> {
                                 children: <Widget>[
                                   Expanded(
                                     child: Text(
-                                      '${S.of(context).tax} (${setting.value.defaultTax}%)',
+                                      '${S.of(context).tax} (${_con.carts[0].food.restaurant.defaultTax}%)',
                                       style: Theme.of(context).textTheme.body2,
                                     ),
                                   ),
@@ -182,15 +181,19 @@ class _CartWidgetState extends StateMVC<CartWidget> {
                                   SizedBox(
                                     width: MediaQuery.of(context).size.width - 40,
                                     child: FlatButton(
-                                      onPressed: () {
-//                                        Navigator.of(context).pushNamed('/PaymentMethod',
-//                                            arguments:
-//                                                new RouteArgument(param: [_con.carts, _con.total, setting.defaultTax]));
-                                        Navigator.of(context).pushNamed('/DeliveryAddresses',
-                                            arguments: new RouteArgument(param: [_con.carts, _con.total, setting.value.defaultTax]));
-                                      },
+                                      onPressed: !_con.carts[0].food.restaurant.closed
+                                          ? () {
+                                              Navigator.of(context).pushNamed('/DeliveryPickup');
+                                            }
+                                          : () {
+                                              _con.scaffoldKey?.currentState?.showSnackBar(SnackBar(
+                                                content: Text(S.of(context).this_restaurant_is_closed_),
+                                              ));
+                                            },
+                                      disabledColor: Theme.of(context).focusColor.withOpacity(0.5),
                                       padding: EdgeInsets.symmetric(vertical: 14),
-                                      color: Theme.of(context).accentColor,
+                                      color:
+                                          !_con.carts[0].food.restaurant.closed ? Theme.of(context).accentColor : Theme.of(context).focusColor.withOpacity(0.5),
                                       shape: StadiumBorder(),
                                       child: Text(
                                         S.of(context).checkout,

@@ -1,15 +1,15 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/reviews_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../models/route_argument.dart';
 
 class ReviewsWidget extends StatefulWidget {
-  RouteArgument routeArgument;
+  final RouteArgument routeArgument;
 
   ReviewsWidget({Key key, this.routeArgument}) : super(key: key);
 
@@ -69,7 +69,7 @@ class _ReviewsWidgetState extends StateMVC<ReviewsWidget> {
                                 ),
                                 SizedBox(
                                   height: 60,
-                                  width: 100,
+                                  width: 110,
                                   child: Chip(
                                     padding: EdgeInsets.all(10),
                                     label: Row(

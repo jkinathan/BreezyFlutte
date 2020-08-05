@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 
+import '../../generated/i18n.dart';
 import '../elements/SearchBarWidget.dart';
 import '../elements/ShoppingCartButtonWidget.dart';
 import '../models/language.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/faq_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../elements/DrawerWidget.dart';

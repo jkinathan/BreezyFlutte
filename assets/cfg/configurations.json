@@ -1,5 +1,4 @@
 {
-  "base_url": "http://79b26a3c9597.ngrok.io",
-  "api_base_url": "http://79b26a3c9597.ngrok.io/api/",
-  "google_maps_key" : "AIzaSyBuOIA_i51EQR0sBEOz6oQFp2dYIJPFVvU"
+  "base_url": "http://192.168.8.102/multi-restaurants/public/",
+  "api_base_url": "http://192.168.8.102/multi-restaurants/public/api/"
 }

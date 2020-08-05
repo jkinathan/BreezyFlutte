@@ -4,7 +4,7 @@ import '../helpers/helper.dart';
 import '../models/faq.dart';
 
 class FaqItemWidget extends StatelessWidget {
-  Faq faq;
+  final Faq faq;
   FaqItemWidget({Key key, this.faq}) : super(key: key);
 
   @override

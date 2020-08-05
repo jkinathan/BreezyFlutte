@@ -12,10 +12,18 @@ class Review {
   Review.init(this.rate);
 
   Review.fromJSON(Map<String, dynamic> jsonMap) {
-    id = jsonMap['id'].toString();
-    review = jsonMap['review'];
-    rate = jsonMap['rate'].toString() ?? '0';
-    user = jsonMap['user'] != null ? User.fromJSON(jsonMap['user']) : null;
+    try {
+      id = jsonMap['id'].toString();
+      review = jsonMap['review'];
+      rate = jsonMap['rate'].toString() ?? '0';
+      user = jsonMap['user'] != null ? User.fromJSON(jsonMap['user']) : new User();
+    } catch (e) {
+      id = '';
+      review = '';
+      rate = '0';
+      user = new User();
+      print(e);
+    }
   }
 
   Map toMap() {

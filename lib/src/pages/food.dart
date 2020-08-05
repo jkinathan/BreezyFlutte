@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/food_controller.dart';
 import '../elements/AddToCartAlertDialog.dart';
 import '../elements/CircularLoadingWidget.dart';
@@ -84,6 +84,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                           child: Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                             child: Wrap(
+                              runSpacing: 8,
                               children: [
                                 Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -101,8 +102,8 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                           ),
                                           Text(
                                             _con.food.restaurant.name,
-                                            overflow: TextOverflow.fade,
-                                            softWrap: false,
+                                            overflow: TextOverflow.ellipsis,
+                                            maxLines: 2,
                                             style: Theme.of(context).textTheme.body1,
                                           ),
                                         ],
@@ -118,19 +119,51 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                             context,
                                             style: Theme.of(context).textTheme.display3,
                                           ),
-                                          Text(
-                                            _con.food.weight + S.of(context).g,
-                                            overflow: TextOverflow.ellipsis,
-                                            maxLines: 1,
-                                            style: Theme.of(context).textTheme.body1,
-                                          ),
+                                          _con.food.discountPrice > 0
+                                              ? Helper.getPrice(_con.food.discountPrice, context,
+                                                  style: Theme.of(context).textTheme.body1.merge(TextStyle(decoration: TextDecoration.lineThrough)))
+                                              : SizedBox(height: 0),
                                         ],
                                       ),
                                     ),
                                   ],
                                 ),
-                                Divider(height: 40),
-                                Text(Helper.skipHtml(_con.food.description)),
+                                Row(
+                                  children: <Widget>[
+                                    Container(
+                                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
+                                      decoration:
+                                          BoxDecoration(color: _con.food.deliverable ? Colors.green : Colors.orange, borderRadius: BorderRadius.circular(24)),
+                                      child: _con.food.deliverable
+                                          ? Text(
+                                              S.of(context).deliverable,
+                                              style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                            )
+                                          : Text(
+                                              S.of(context).not_deliverable,
+                                              style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                            ),
+                                    ),
+                                    Expanded(child: SizedBox(height: 0)),
+                                    Container(
+                                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
+                                        decoration: BoxDecoration(color: Theme.of(context).focusColor, borderRadius: BorderRadius.circular(24)),
+                                        child: Text(
+                                          _con.food.weight + " " + _con.food.unit,
+                                          style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                        )),
+                                    SizedBox(width: 5),
+                                    Container(
+                                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
+                                        decoration: BoxDecoration(color: Theme.of(context).focusColor, borderRadius: BorderRadius.circular(24)),
+                                        child: Text(
+                                          _con.food.packageItemsCount + " " + S.of(context).items,
+                                          style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                        )),
+                                  ],
+                                ),
+                                Divider(height: 20),
+                                Helper.applyHtml(context, _con.food.description, style: TextStyle(fontSize: 12)),
                                 ListTile(
                                   dense: true,
                                   contentPadding: EdgeInsets.symmetric(vertical: 10),
@@ -147,6 +180,51 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                     style: Theme.of(context).textTheme.caption,
                                   ),
                                 ),
+                                _con.food.extraGroups == null
+                                    ? CircularLoadingWidget(height: 100)
+                                    : ListView.separated(
+                                        padding: EdgeInsets.all(0),
+                                        itemBuilder: (context, extraGroupIndex) {
+                                          var extraGroup = _con.food.extraGroups.elementAt(extraGroupIndex);
+                                          return Wrap(
+                                            children: <Widget>[
+                                              ListTile(
+                                                dense: true,
+                                                contentPadding: EdgeInsets.symmetric(vertical: 0),
+                                                leading: Icon(
+                                                  Icons.add_circle_outline,
+                                                  color: Theme.of(context).hintColor,
+                                                ),
+                                                title: Text(
+                                                  extraGroup.name,
+                                                  style: Theme.of(context).textTheme.subhead,
+                                                ),
+                                              ),
+                                              ListView.separated(
+                                                padding: EdgeInsets.all(0),
+                                                itemBuilder: (context, extraIndex) {
+                                                  return ExtraItemWidget(
+                                                    extra: _con.food.extras.where((extra) => extra.extraGroupId == extraGroup.id).elementAt(extraIndex),
+                                                    onChanged: _con.calculateTotal,
+                                                  );
+                                                },
+                                                separatorBuilder: (context, index) {
+                                                  return SizedBox(height: 20);
+                                                },
+                                                itemCount: _con.food.extras.where((extra) => extra.extraGroupId == extraGroup.id).length,
+                                                primary: false,
+                                                shrinkWrap: true,
+                                              ),
+                                            ],
+                                          );
+                                        },
+                                        separatorBuilder: (context, index) {
+                                          return SizedBox(height: 20);
+                                        },
+                                        itemCount: _con.food.extraGroups.length,
+                                        primary: false,
+                                        shrinkWrap: true,
+                                      ),
                                 ListView.separated(
                                   padding: EdgeInsets.all(0),
                                   itemBuilder: (context, index) {
@@ -348,7 +426,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                                 builder: (BuildContext context) {
                                                   // return object of type Dialog
                                                   return AddToCartAlertDialogWidget(
-                                                      oldFood: _con.cart?.food,
+                                                      oldFood: _con.carts.elementAt(0)?.food,
                                                       newFood: _con.food,
                                                       onPressed: (food, {reset: true}) {
                                                         return _con.addToCart(_con.food, reset: true);

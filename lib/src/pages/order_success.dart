@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/checkout_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../helpers/helper.dart';
 import '../models/payment.dart';
 import '../models/route_argument.dart';
-import '../repository/settings_repository.dart';
 
 class OrderSuccessWidget extends StatefulWidget {
-  RouteArgument routeArgument;
+  final RouteArgument routeArgument;
+
   OrderSuccessWidget({Key key, this.routeArgument}) : super(key: key);
 
   @override
@@ -154,23 +154,25 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
                               ],
                             ),
                             SizedBox(height: 3),
-                            Row(
-                              children: <Widget>[
-                                Expanded(
-                                  child: Text(
-                                    S.of(context).delivery_fee,
-                                    style: Theme.of(context).textTheme.body2,
+                            _con.payment.method == 'Pay on Pickup'
+                                ? SizedBox(height: 0)
+                                : Row(
+                                    children: <Widget>[
+                                      Expanded(
+                                        child: Text(
+                                          S.of(context).delivery_fee,
+                                          style: Theme.of(context).textTheme.body2,
+                                        ),
+                                      ),
+                                      Helper.getPrice(_con.carts[0].food.restaurant.deliveryFee, context, style: Theme.of(context).textTheme.subhead)
+                                    ],
                                   ),
-                                ),
-                                Helper.getPrice(_con.carts[0].food.restaurant.deliveryFee, context, style: Theme.of(context).textTheme.subhead)
-                              ],
-                            ),
                             SizedBox(height: 3),
                             Row(
                               children: <Widget>[
                                 Expanded(
                                   child: Text(
-                                    "${S.of(context).tax} (${setting.value.defaultTax}%)",
+                                    "${S.of(context).tax} (${_con.carts[0].food.restaurant.defaultTax}%)",
                                     style: Theme.of(context).textTheme.body2,
                                   ),
                                 ),

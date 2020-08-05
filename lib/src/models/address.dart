@@ -1,10 +1,13 @@
-import 'package:App_360/generated/i18n.dart';
+import 'package:location/location.dart';
+
+import '../../generated/i18n.dart';
+
 class Address {
   String id;
   String description;
   String address;
-  String latitude;
-  String longitude;
+  double latitude;
+  double longitude;
   bool isDefault;
   String userId;
 
@@ -29,6 +32,10 @@ class Address {
     }
   }
 
+  bool isUnknown() {
+    return latitude == null || longitude == null;
+  }
+
   Map toMap() {
     var map = new Map<String, dynamic>();
     map["id"] = id;
@@ -39,5 +46,12 @@ class Address {
     map["is_default"] = isDefault;
     map["user_id"] = userId;
     return map;
+  }
+
+  LocationData toLocationData() {
+    return LocationData.fromMap({
+      "latitude": latitude,
+      "longitude": longitude,
+    });
   }
 }

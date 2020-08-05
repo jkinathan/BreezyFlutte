@@ -2,10 +2,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/restaurant_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../elements/FoodItemWidget.dart';
@@ -16,7 +16,7 @@ import '../helpers/helper.dart';
 import '../models/route_argument.dart';
 
 class DetailsWidget extends StatefulWidget {
-  RouteArgument routeArgument;
+  final RouteArgument routeArgument;
 
   DetailsWidget({Key key, this.routeArgument}) : super(key: key);
 
@@ -37,8 +37,8 @@ class _DetailsWidgetState extends StateMVC<DetailsWidget> {
   void initState() {
     _con.listenForRestaurant(id: widget.routeArgument.id);
     _con.listenForGalleries(widget.routeArgument.id);
-    _con.listenForRestaurantReviews(id: widget.routeArgument.id);
     _con.listenForFeaturedFoods(widget.routeArgument.id);
+    _con.listenForRestaurantReviews(id: widget.routeArgument.id);
     super.initState();
   }
 
@@ -52,8 +52,14 @@ class _DetailsWidgetState extends StateMVC<DetailsWidget> {
           },
           isExtended: true,
           materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-          icon: Icon(Icons.restaurant),
-          label: Text(S.of(context).menu),
+          icon: Icon(
+            Icons.restaurant,
+            color: Theme.of(context).primaryColor,
+          ),
+          label: Text(
+            S.of(context).menu,
+            style: TextStyle(color: Theme.of(context).primaryColor),
+          ),
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
         body: RefreshIndicator(
@@ -98,7 +104,7 @@ class _DetailsWidgetState extends StateMVC<DetailsWidget> {
                                   children: <Widget>[
                                     Expanded(
                                       child: Text(
-                                        _con.restaurant.name,
+                                        _con.restaurant?.name ?? '',
                                         overflow: TextOverflow.fade,
                                         softWrap: false,
                                         maxLines: 2,
@@ -128,8 +134,53 @@ class _DetailsWidgetState extends StateMVC<DetailsWidget> {
                                   ],
                                 ),
                               ),
+                              Row(
+                                children: <Widget>[
+                                  SizedBox(width: 20),
+                                  Container(
+                                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
+                                    decoration:
+                                        BoxDecoration(color: _con.restaurant.closed ? Colors.grey : Colors.green, borderRadius: BorderRadius.circular(24)),
+                                    child: _con.restaurant.closed
+                                        ? Text(
+                                            S.of(context).closed,
+                                            style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                          )
+                                        : Text(
+                                            S.of(context).open,
+                                            style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                          ),
+                                  ),
+                                  SizedBox(width: 10),
+                                  Container(
+                                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
+                                    decoration: BoxDecoration(
+                                        color: Helper.canDelivery(_con.restaurant) ? Colors.green : Colors.orange, borderRadius: BorderRadius.circular(24)),
+                                    child: Helper.canDelivery(_con.restaurant)
+                                        ? Text(
+                                            S.of(context).delivery,
+                                            style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                          )
+                                        : Text(
+                                            S.of(context).pickup,
+                                            style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                          ),
+                                  ),
+                                  Expanded(child: SizedBox(height: 0)),
+                                  Container(
+                                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
+                                    decoration: BoxDecoration(
+                                        color: Helper.canDelivery(_con.restaurant) ? Colors.green : Colors.grey, borderRadius: BorderRadius.circular(24)),
+                                    child: Text(
+                                      Helper.getDistance(_con.restaurant.distance),
+                                      style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                    ),
+                                  ),
+                                  SizedBox(width: 20),
+                                ],
+                              ),
                               Padding(
-                                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+                                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                                 child: Html(
                                   data: _con.restaurant.description,
                                   defaultTextStyle: Theme.of(context).textTheme.body1.merge(TextStyle(fontSize: 14)),
@@ -180,7 +231,7 @@ class _DetailsWidgetState extends StateMVC<DetailsWidget> {
                                       child: FlatButton(
                                         padding: EdgeInsets.all(0),
                                         onPressed: () {
-                                          Navigator.of(context).pushNamed('/Map', arguments: new RouteArgument(param: _con.restaurant));
+                                          Navigator.of(context).pushNamed('/Pages', arguments: new RouteArgument(id: '1', param: _con.restaurant));
                                         },
                                         child: Icon(
                                           Icons.directions,

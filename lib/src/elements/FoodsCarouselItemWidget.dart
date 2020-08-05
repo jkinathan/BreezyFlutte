@@ -6,9 +6,9 @@ import '../models/food.dart';
 import '../models/route_argument.dart';
 
 class FoodsCarouselItemWidget extends StatelessWidget {
-  double marginLeft;
-  Food food;
-  String heroTag;
+  final double marginLeft;
+  final Food food;
+  final String heroTag;
 
   FoodsCarouselItemWidget({Key key, this.heroTag, this.marginLeft, this.food}) : super(key: key);
 

@@ -5,6 +5,7 @@ import '../helpers/helper.dart';
 import '../models/cart.dart';
 import '../models/route_argument.dart';
 
+// ignore: must_be_immutable
 class CartItemWidget extends StatefulWidget {
   String heroTag;
   Cart cart;

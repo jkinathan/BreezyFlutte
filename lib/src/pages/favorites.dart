@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/favorite_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../elements/FavoriteGridItemWidget.dart';
@@ -63,7 +63,9 @@ class _FavoritesWidgetState extends StateMVC<FavoritesWidget> {
                   children: <Widget>[
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
-                      child: SearchBarWidget(),
+                      child: SearchBarWidget(onClickFilter: (e) {
+                        widget.parentScaffoldKey.currentState.openEndDrawer();
+                      }),
                     ),
                     SizedBox(height: 10),
                     Padding(

@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappbrowser/flutter_inappbrowser.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:global_configuration/global_configuration.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/paypal_controller.dart';
 import '../models/route_argument.dart';
 
+// ignore: must_be_immutable
 class PayPalPaymentWidget extends StatefulWidget {
   RouteArgument routeArgument;
   PayPalPaymentWidget({Key key, this.routeArgument}) : super(key: key);
@@ -37,6 +38,7 @@ class _PayPalPaymentWidgetState extends StateMVC<PayPalPaymentWidget> {
           InAppWebView(
             initialUrl: _con.url,
             initialHeaders: {},
+            initialOptions: new InAppWebViewWidgetOptions(),
             onWebViewCreated: (InAppWebViewController controller) {
               _con.webView = controller;
             },

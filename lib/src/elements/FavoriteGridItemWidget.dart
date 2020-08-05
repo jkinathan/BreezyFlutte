@@ -4,8 +4,8 @@ import '../models/favorite.dart';
 import '../models/route_argument.dart';
 
 class FavoriteGridItemWidget extends StatelessWidget {
-  String heroTag;
-  Favorite favorite;
+  final String heroTag;
+  final Favorite favorite;
 
   FavoriteGridItemWidget({Key key, this.heroTag, this.favorite}) : super(key: key);
   @override

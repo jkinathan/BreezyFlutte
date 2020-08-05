@@ -1,7 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
+
+import '../../generated/i18n.dart';
 import '../helpers/app_config.dart' as config;
 
 class EmptyCartWidget extends StatefulWidget {
@@ -111,7 +112,10 @@ class _EmptyCartWidgetState extends State<EmptyCartWidget> {
                       shape: StadiumBorder(),
                       child: Text(
                         S.of(context).start_exploring,
-                        style: Theme.of(context).textTheme.title.merge(TextStyle(color: Theme.of(context).scaffoldBackgroundColor)),
+                        style: Theme.of(context)
+                            .textTheme
+                            .title
+                            .merge(TextStyle(color: Theme.of(context).scaffoldBackgroundColor)),
                       ),
                     )
                   : SizedBox(),

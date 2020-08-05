@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/user_controller.dart';
 import '../elements/BlockButtonWidget.dart';
 import '../helpers/app_config.dart' as config;

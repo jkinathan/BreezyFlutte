@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/search_controller.dart';
 import '../elements/CardWidget.dart';
 import '../elements/CircularLoadingWidget.dart';
+import '../elements/FoodItemWidget.dart';
 import '../models/route_argument.dart';
 
 class SearchResultWidget extends StatefulWidget {
-  String heroTag;
+  final String heroTag;
 
   SearchResultWidget({Key key, this.heroTag}) : super(key: key);
 
@@ -60,10 +61,8 @@ class _SearchResultWidgetState extends StateMVC<SearchResultWidget> {
           Padding(
             padding: const EdgeInsets.all(20),
             child: TextField(
-              onChanged: (text) {
-                _con.refreshSearch(text);
-              },
-              onSubmitted: (text) {
+              onSubmitted: (text) async {
+                await _con.refreshSearch(text);
                 _con.saveSearch(text);
               },
               autofocus: true,
@@ -78,36 +77,66 @@ class _SearchResultWidgetState extends StateMVC<SearchResultWidget> {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 20, right: 20),
-            child: ListTile(
-              dense: true,
-              contentPadding: EdgeInsets.symmetric(vertical: 0),
-              title: Text(
-                S.of(context).recents_search,
-                style: Theme.of(context).textTheme.subhead,
-              ),
-            ),
-          ),
-          _con.restaurants.isEmpty
+          _con.restaurants.isEmpty && _con.foods.isEmpty
               ? CircularLoadingWidget(height: 288)
               : Expanded(
-                  child: ListView.builder(
-                    shrinkWrap: true,
-                    primary: false,
-                    itemCount: _con.restaurants.length,
-                    itemBuilder: (context, index) {
-                      return GestureDetector(
-                        onTap: () {
-                          Navigator.of(context).pushNamed('/Details',
-                              arguments: RouteArgument(
-                                id: _con.restaurants.elementAt(index).id,
-                                heroTag: widget.heroTag,
-                              ));
+                  child: ListView(
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.only(left: 20, right: 20),
+                        child: ListTile(
+                          dense: true,
+                          contentPadding: EdgeInsets.symmetric(vertical: 0),
+                          title: Text(
+                            S.of(context).foods_results,
+                            style: Theme.of(context).textTheme.subhead,
+                          ),
+                        ),
+                      ),
+                      ListView.separated(
+                        scrollDirection: Axis.vertical,
+                        shrinkWrap: true,
+                        primary: false,
+                        itemCount: _con.foods.length,
+                        separatorBuilder: (context, index) {
+                          return SizedBox(height: 10);
                         },
-                        child: CardWidget(restaurant: _con.restaurants.elementAt(index), heroTag: widget.heroTag),
-                      );
-                    },
+                        itemBuilder: (context, index) {
+                          return FoodItemWidget(
+                            heroTag: 'search_list',
+                            food: _con.foods.elementAt(index),
+                          );
+                        },
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
+                        child: ListTile(
+                          dense: true,
+                          contentPadding: EdgeInsets.symmetric(vertical: 0),
+                          title: Text(
+                            S.of(context).restaurants_results,
+                            style: Theme.of(context).textTheme.subhead,
+                          ),
+                        ),
+                      ),
+                      ListView.builder(
+                        shrinkWrap: true,
+                        primary: false,
+                        itemCount: _con.restaurants.length,
+                        itemBuilder: (context, index) {
+                          return GestureDetector(
+                            onTap: () {
+                              Navigator.of(context).pushNamed('/Details',
+                                  arguments: RouteArgument(
+                                    id: _con.restaurants.elementAt(index).id,
+                                    heroTag: widget.heroTag,
+                                  ));
+                            },
+                            child: CardWidget(restaurant: _con.restaurants.elementAt(index), heroTag: widget.heroTag),
+                          );
+                        },
+                      ),
+                    ],
                   ),
                 ),
         ],

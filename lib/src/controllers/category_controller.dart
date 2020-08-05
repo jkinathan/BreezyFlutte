@@ -14,7 +14,7 @@ class CategoryController extends ControllerMVC {
   GlobalKey<ScaffoldState> scaffoldKey;
   Category category;
   bool loadCart = false;
-  Cart cart;
+  List<Cart> carts = [];
 
   CategoryController() {
     this.scaffoldKey = new GlobalKey<ScaffoldState>();
@@ -60,18 +60,18 @@ class CategoryController extends ControllerMVC {
   void listenForCart() async {
     final Stream<Cart> stream = await getCart();
     stream.listen((Cart _cart) {
-      cart = _cart;
+      carts.add(_cart);
     });
   }
 
   bool isSameRestaurants(Food food) {
-    if (cart != null) {
-      return cart.food?.restaurant?.id == food.restaurant.id;
+    if (carts.isNotEmpty) {
+      return carts[0].food?.restaurant?.id == food.restaurant?.id;
     }
     return true;
   }
 
-  void addToCart(Food food, {bool reset = false}) async {
+  /*void addToCart(Food food, {bool reset = false}) async {
     setState(() {
       this.loadCart = true;
     });
@@ -87,6 +87,45 @@ class CategoryController extends ControllerMVC {
         content: Text('This food was added to cart'),
       ));
     });
+  }*/
+
+  void addToCart(Food food, {bool reset = false}) async {
+    setState(() {
+      this.loadCart = true;
+    });
+    var _newCart = new Cart();
+    _newCart.food = food;
+    _newCart.extras = [];
+    _newCart.quantity = 1;
+    // if food exist in the cart then increment quantity
+    var _oldCart = isExistInCart(_newCart);
+    if (_oldCart != null) {
+      _oldCart.quantity++;
+      updateCart(_oldCart).then((value) {
+        setState(() {
+          this.loadCart = false;
+        });
+      }).whenComplete(() {
+        scaffoldKey?.currentState?.showSnackBar(SnackBar(
+          content: Text(S.current.this_food_was_added_to_cart),
+        ));
+      });
+    } else {
+      // the food doesnt exist in the cart add new one
+      addCart(_newCart, reset).then((value) {
+        setState(() {
+          this.loadCart = false;
+        });
+      }).whenComplete(() {
+        scaffoldKey?.currentState?.showSnackBar(SnackBar(
+          content: Text(S.current.this_food_was_added_to_cart),
+        ));
+      });
+    }
+  }
+
+  Cart isExistInCart(Cart _cart) {
+    return carts.firstWhere((Cart oldCart) => _cart.isSame(oldCart), orElse: () => null);
   }
 
   Future<void> refreshCategory() async {

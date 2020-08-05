@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/settings_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../elements/PaymentSettingsDialog.dart';
@@ -71,7 +71,7 @@ class _SettingsWidgetState extends StateMVC<SettingsWidget> {
                               child: InkWell(
                                 borderRadius: BorderRadius.circular(300),
                                 onTap: () {
-                                  Navigator.of(context).pushNamed('/Tabs', arguments: 1);
+                                  Navigator.of(context).pushNamed('/Profile');
                                 },
                                 child: CircleAvatar(
                                   backgroundImage: NetworkImage(currentUser.value.image.thumb),
@@ -105,7 +105,7 @@ class _SettingsWidgetState extends StateMVC<SettingsWidget> {
                                 user: currentUser.value,
                                 onChanged: () {
                                   _con.update(currentUser.value);
-                                  //setState(() {});
+//                                  setState(() {});
                                 },
                               ),
                             ),
@@ -261,6 +261,26 @@ class _SettingsWidgetState extends StateMVC<SettingsWidget> {
                             trailing: Text(
                               S.of(context).english,
                               style: TextStyle(color: Theme.of(context).focusColor),
+                            ),
+                          ),
+                          ListTile(
+                            onTap: () {
+                              Navigator.of(context).pushNamed('/DeliveryAddresses');
+                            },
+                            dense: true,
+                            title: Row(
+                              children: <Widget>[
+                                Icon(
+                                  Icons.place,
+                                  size: 22,
+                                  color: Theme.of(context).focusColor,
+                                ),
+                                SizedBox(width: 10),
+                                Text(
+                                  S.of(context).delivery_addresses,
+                                  style: Theme.of(context).textTheme.body1,
+                                ),
+                              ],
                             ),
                           ),
                           ListTile(

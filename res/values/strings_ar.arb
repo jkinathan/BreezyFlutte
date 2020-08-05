@@ -156,5 +156,6 @@
   "order_status_changed": "Order status changed",
   "new_order_from_client": "New order from client",
   "click_on_the_stars_below_to_leave_comments": "Click on the stars below to leave comments",
-  "unknown": "Unknown"
+  "unknown": "Unknown",
+  "cuisines": "Cuisines"
 }

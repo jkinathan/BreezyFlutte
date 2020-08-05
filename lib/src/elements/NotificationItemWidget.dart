@@ -5,7 +5,7 @@ import '../helpers/helper.dart';
 import '../models/notification.dart' as model;
 
 class NotificationItemWidget extends StatelessWidget {
-  model.Notification notification;
+  final model.Notification notification;
 
   NotificationItemWidget({Key key, this.notification}) : super(key: key);
 

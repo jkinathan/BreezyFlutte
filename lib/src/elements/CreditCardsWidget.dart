@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
+import '../../generated/i18n.dart';
 import '../elements/PaymentSettingsDialog.dart';
 import '../helpers/helper.dart';
 import '../models/credit_card.dart';
 
+// ignore: must_be_immutable
 class CreditCardsWidget extends StatelessWidget {
   CreditCard creditCard;
   ValueChanged<CreditCard> onChanged;
@@ -81,7 +83,7 @@ class CreditCardsWidget extends StatelessWidget {
                   ],
                 ),
                 Text(
-                  'CARD NUMBER',
+                  S.of(context).card_number,
                   style: Theme.of(context).textTheme.caption,
                 ),
                 Text(
@@ -93,11 +95,11 @@ class CreditCardsWidget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     Text(
-                      'EXPIRY DATE',
+                      S.of(context).expiry_date,
                       style: Theme.of(context).textTheme.caption,
                     ),
                     Text(
-                      'CVV',
+                      S.of(context).cvv,
                       style: Theme.of(context).textTheme.caption,
                     ),
                   ],

@@ -1,8 +1,7 @@
-import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/profile_controller.dart';
 import '../repository/settings_repository.dart';
 import '../repository/user_repository.dart';
@@ -13,10 +12,14 @@ class DrawerWidget extends StatefulWidget {
 }
 
 class _DrawerWidgetState extends StateMVC<DrawerWidget> {
-  ProfileController _con;
+  //ProfileController _con;
 
   _DrawerWidgetState() : super(ProfileController()) {
-    _con = controller;
+    //_con = controller;
+  }
+  @override
+  void dispose() {
+    super.dispose();
   }
 
   @override
@@ -26,7 +29,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
         children: <Widget>[
           GestureDetector(
             onTap: () {
-              currentUser.value.apiToken != null ? Navigator.of(context).pushNamed('/Pages', arguments: 1) : Navigator.of(context).pushNamed('/Login');
+              currentUser.value.apiToken != null ? Navigator.of(context).pushNamed('/Profile') : Navigator.of(context).pushNamed('/Login');
             },
             child: currentUser.value.apiToken != null
                 ? UserAccountsDrawerHeader(
@@ -98,7 +101,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
               Navigator.of(context).pushNamed('/Pages', arguments: 3);
             },
             leading: Icon(
-              Icons.fastfood,
+              Icons.local_mall,
               color: Theme.of(context).focusColor.withOpacity(1),
             ),
             title: Text(
@@ -177,11 +180,12 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
             onTap: () {
               if (Theme.of(context).brightness == Brightness.dark) {
                 setBrightness(Brightness.light);
-                DynamicTheme.of(context).setBrightness(Brightness.light);
+                setting.value.brightness.value = Brightness.light;
               } else {
+                setting.value.brightness.value = Brightness.dark;
                 setBrightness(Brightness.dark);
-                DynamicTheme.of(context).setBrightness(Brightness.dark);
               }
+              setting.notifyListeners();
             },
             leading: Icon(
               Icons.brightness_6,
@@ -211,6 +215,21 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
               style: Theme.of(context).textTheme.subhead,
             ),
           ),
+          currentUser.value.apiToken == null
+              ? ListTile(
+                  onTap: () {
+                    Navigator.of(context).pushNamed('/SignUp');
+                  },
+                  leading: Icon(
+                    Icons.person_add,
+                    color: Theme.of(context).focusColor.withOpacity(1),
+                  ),
+                  title: Text(
+                    S.of(context).register,
+                    style: Theme.of(context).textTheme.subhead,
+                  ),
+                )
+              : SizedBox(height: 0),
           setting.value.enableVersion
               ? ListTile(
                   dense: true,

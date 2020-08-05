@@ -61,7 +61,6 @@ class _FoodGridItemWidgetState extends State<FoodGridItemWidget> {
             child: FlatButton(
               padding: EdgeInsets.all(0),
               onPressed: () {
-                print('onpressed');
                 widget.onPressed();
               },
               child: Icon(

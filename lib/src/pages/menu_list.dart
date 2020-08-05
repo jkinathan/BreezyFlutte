@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import '../../generated/i18n.dart';
 import '../controllers/restaurant_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../elements/DrawerWidget.dart';
@@ -14,7 +14,7 @@ import '../models/route_argument.dart';
 class MenuWidget extends StatefulWidget {
   @override
   _MenuWidgetState createState() => _MenuWidgetState();
-  RouteArgument routeArgument;
+  final RouteArgument routeArgument;
 
   MenuWidget({Key key, this.routeArgument}) : super(key: key);
 }

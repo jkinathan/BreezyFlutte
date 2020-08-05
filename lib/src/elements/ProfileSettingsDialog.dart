@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:App_360/generated/i18n.dart';
+
+import '../../generated/i18n.dart';
 import '../models/user.dart';
 
 class ProfileSettingsDialog extends StatefulWidget {
-  User user;
-  VoidCallback onChanged;
+  final User user;
+  final VoidCallback onChanged;
 
   ProfileSettingsDialog({Key key, this.user, this.onChanged}) : super(key: key);
 

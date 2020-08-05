@@ -7,7 +7,7 @@ import '../elements/CircularLoadingWidget.dart';
 import '../models/route_argument.dart';
 
 class DebugWidget extends StatefulWidget {
-  RouteArgument routeArgument;
+  final RouteArgument routeArgument;
 
   DebugWidget({Key key, this.routeArgument}) : super(key: key);
 

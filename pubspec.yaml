@@ -11,8 +11,8 @@ description: app_360_deliveries
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.8.0
-code: 2
+version: 2.0.0
+code: 5
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -26,23 +26,26 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
-  flutter_swiper: ^1.1.6
-  google_maps_flutter: ^0.5.21+8
-  mvc_pattern: ^3.4.1
-  global_configuration: ^1.3.0
-  http: ^0.12.0+2
-  intl: ^0.16.0
-  html: ^0.14.0+2
-  shared_preferences: ^0.5.7
-  flutter_html: ^0.10.4
-  flutter_svg: ^0.17.4
-  location: ^2.3.5
-  dynamic_theme: ^1.0.0
-  flutter_inappbrowser: ^2.0.2
-  url_launcher: ^5.4.1
-  firebase_messaging: ^6.0.13
-  cached_network_image: 2.0.0-rc
+  cupertino_icons: 0.1.2
+  google_maps_flutter: 0.5.27
+  google_map_location_picker: 3.2.2
+  mvc_pattern: 5.1.0
+  global_configuration: 1.5.0
+  http: 0.12.1
+  #intl: 0.16.1
+  html: 0.14.0+3
+  shared_preferences: 0.5.7
+  flutter_html: 0.11.1
+  flutter_svg: 0.17.4
+  location: 3.0.2
+  # dynamic_theme: 1.0.1
+  flutter_inappbrowser: 2.0.2
+  url_launcher: 5.4.5
+  firebase_messaging: 6.0.13
+  cached_network_image: 2.2.0
+  fluttertoast: 4.0.1
+  flutter_staggered_grid_view: 0.3.0
+  timeago: 2.0.26
 
 dev_dependencies:
   flutter_test:
@@ -85,6 +88,8 @@ flutter:
     - assets/img/pay_pickup.png
     - assets/img/logo.png
     - assets/img/loading.gif
+    - assets/img/loading_card.gif
+    - assets/img/loading_trend.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -97,7 +102,7 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
+ fonts:
   - family: Poppins
     fonts:
       - asset: assets/fonts/Poppins-Thin.ttf
