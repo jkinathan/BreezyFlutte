@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "968650247929",
+    "firebase_url": "https://momets-4e5e3.firebaseio.com",
+    "project_id": "momets-4e5e3",
+    "storage_bucket": "momets-4e5e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968650247929:android:4a2a6961e471aea1989c28",
+        "android_client_info": {
+          "package_name": "com.delivio.delivio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968650247929-63rlfomfcu6qnle5liinso0gq40uu8nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPI4Ub7arWl0T6t2KedwV-px37K36nqdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968650247929-63rlfomfcu6qnle5liinso0gq40uu8nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
