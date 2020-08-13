@@ -5,63 +5,72 @@ INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/s
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:1:1-48:12
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:1:1-48:12
 MERGED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:google_map_location_picker] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_map_location_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:android_intent] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:sqflite] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:geolocator] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_api_availability] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_maps_flutter] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_inappbrowser] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/flutter_inappbrowser/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:location] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:location_web] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
 MERGED from [:url_launcher] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:path_provider] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:location] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:location_permissions] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:17:1-44:12
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:15:1-34:12
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:2:1-23:12
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/74a8ba81f78c43a4a98a190dcd8ad1e0/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eba80d28afc3c461a4c8f388764882fd/firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bc4c1b63c930316ac72a945b6bca4ccf/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7a067871fd251ef4656ed32e9ead1ccd/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/446558717ae36c57616f11f42312ce92/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/78a5ca7c1a25bc00f2694d889b323b86/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ae287f5b0533f8d5e96472290fbf507f/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.appcompat:appcompat:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ec65987f16c667a653ea6d9e2b667180/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d7796a809e7bcbd7ab3ba3deb22618c7/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.browser:browser:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e27da97111d1eb8664f36ebec244500/browser-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eebd8ecb92d044a29ad20a0869d2bc3e/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/93efdbce1bf83a1b9f6793165484cd6e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1b0854947331816b67136a2ab05af694/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9e35f1849cebe7e225f9b26aa18eaee5/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.webkit:webkit:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d32f5e5251b3a6ba72a31872ebc356f7/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5d1067e37a519d88cc904b45647c0478/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9f75383a6cb752799aca290933b1a744/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00d093bd154f667d382d7ad9b20e17f3/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e8c4a5a16847bbd17cca32e8ec7bd93e/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/aea26a5bb68765d2cf278253bddfc596/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/07c4ab197a6be593ecc389558f833762/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/193fc0c881d29c6bfd54186e7ea75679/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bd05ff358a441b1187317d0713274ba6/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d95d9afbfc224a62b60b9b50306404ad/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfd8fe2d3f2ad013bf090050c3819a3c/core-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/72f43e2bd6efca632c3ff477ad1d20d1/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2088685c061b25d1a81961172ae87b98/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/258a8b3206ff25113acf91c5b56a39fb/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9cf89af2a1b33a08357d39fdcc0f5c88/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2e68f2fd67042f27816c882671a3da23/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/52adbe96b4e80508a6a611aa0d0b560f/firebase-encoders-json-16.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e17c1ee757096e5f81cc4c4a242898d8/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/69b90917f97d5b2b9a9bfb17f70ebac1/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/332c394ce50a5fa4e296e63376abdda8/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1c92bea6a54bbfa9dfbb44dba32d7931/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/0e832f3d8b672e7612123bda93363930/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfee4ddb47335fdf9895ac37bca8d4ab/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.datatransport:transport-api:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/62458a40863be55137f9d568c8c0115f/transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/cbf2ecbb6e2a787454531719303bad55/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3d76a79dc136a35ecf7719bf629083d6/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/463f3fa1194181e7280ed1f1f3a546ce/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/fc571bd79e731574d204e2e0ae30d502/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e646f5cb4a12843bc2ef500977283a5/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/49511145c4b31a10020eb82791240da3/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6d4a52852aed2c0857143d4acbaa75bc/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e814b3120b567a5438b35507da72d18/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/14946aadac769c9e6ed65b78d2e0fc9b/jetified-play-services-basement-17.2.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e55c427ab1b193a0cd55a0cc7534dbb7/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/39a27e81d465ff0c6a90cc8054754da1/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/af325b78571939e5c92df895405488bf/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/47d2991886557192089b9c37ed688e24/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/aa754b015020262d202b5a9ed0734ca2/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/a22be89e0235e39ca0e2f6cbdbd26f6b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7744dcbe6969c1b1a2ceb3dd58272220/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2079f35556ef13ca8efd00debc6dfe06/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d616f5b5e1297c9e72f673dca82d0231/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/87b8d425c5214fdf768d9a49c61db218/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d0ad5307fcee221bc8523475d58df8ce/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d75e534e4220ee0f01df9db538fc5393/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d1edfdcf1760da98f288f82bb90addf5/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/77ee5437e396072d47687f2406d873a4/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/80eaa07e1ce3d121a63eea3744a3766e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/198b198f000bf1307030b0e493ee63e3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/28c364c6a977dc65d48a7ff1b3b0ddde/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dae40f3f84eb0e2868f6d12697748f23/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3d42d645ae3bdc246fe05001aae57a92/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/89c56f234f81a0f12f736230823b49e2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/de4dc03361e0005bca8a80cd20b360c9/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4159605c371c9d664f5483684e0d8076/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/319c6bf8dc62570c356a47cb777bda3f/jetified-firebase-encoders-json-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/fb6877c77963ef5f4854283c74ba6d5d/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c3f05024464c5b358ce6b643f45e1a3d/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f09edfa94da321f46330cf62404e899f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/61bdb9f6e408c1aa18637d7f2108aee2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f15847e145ffff4a0ed23141f5e439e9/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2166cbf07f3feb26e8dcf2505b1b9c03/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ac8a19a8de8405bd3536de75ee60c08a/jetified-transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f9c6cf9bfafb8eab388d45f3e5c909e0/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/debug/AndroidManifest.xml:1:1-9:12
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/debug/AndroidManifest.xml:1:1-9:12
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/debug/AndroidManifest.xml:1:1-9:12
@@ -83,20 +92,22 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:4:5-66
 MERGED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:4:5-66
 MERGED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:4:5-66
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:5:5-78
 MERGED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:5:5-78
 MERGED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:5:5-78
+MERGED from [:geolocator] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [:geolocator] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
 MERGED from [:location] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
 MERGED from [:location] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
 	android:name
@@ -117,46 +128,46 @@ MERGED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/Breezy
 MERGED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-18:19
 MERGED from [:url_launcher] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [:url_launcher] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
-MERGED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:22:5-42:19
-MERGED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:22:5-42:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:13:5-21:19
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:13:5-21:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/74a8ba81f78c43a4a98a190dcd8ad1e0/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/74a8ba81f78c43a4a98a190dcd8ad1e0/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bc4c1b63c930316ac72a945b6bca4ccf/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bc4c1b63c930316ac72a945b6bca4ccf/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7a067871fd251ef4656ed32e9ead1ccd/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7a067871fd251ef4656ed32e9ead1ccd/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/446558717ae36c57616f11f42312ce92/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/446558717ae36c57616f11f42312ce92/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/78a5ca7c1a25bc00f2694d889b323b86/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/78a5ca7c1a25bc00f2694d889b323b86/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ae287f5b0533f8d5e96472290fbf507f/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ae287f5b0533f8d5e96472290fbf507f/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfd8fe2d3f2ad013bf090050c3819a3c/core-1.0.0/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfd8fe2d3f2ad013bf090050c3819a3c/core-1.0.0/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9cf89af2a1b33a08357d39fdcc0f5c88/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9cf89af2a1b33a08357d39fdcc0f5c88/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/cbf2ecbb6e2a787454531719303bad55/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/cbf2ecbb6e2a787454531719303bad55/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3d76a79dc136a35ecf7719bf629083d6/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3d76a79dc136a35ecf7719bf629083d6/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/fc571bd79e731574d204e2e0ae30d502/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/fc571bd79e731574d204e2e0ae30d502/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e646f5cb4a12843bc2ef500977283a5/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e646f5cb4a12843bc2ef500977283a5/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6d4a52852aed2c0857143d4acbaa75bc/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6d4a52852aed2c0857143d4acbaa75bc/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e814b3120b567a5438b35507da72d18/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e814b3120b567a5438b35507da72d18/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/14946aadac769c9e6ed65b78d2e0fc9b/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/14946aadac769c9e6ed65b78d2e0fc9b/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/28c364c6a977dc65d48a7ff1b3b0ddde/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/28c364c6a977dc65d48a7ff1b3b0ddde/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/de4dc03361e0005bca8a80cd20b360c9/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/de4dc03361e0005bca8a80cd20b360c9/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfd8fe2d3f2ad013bf090050c3819a3c/core-1.0.0/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/28c364c6a977dc65d48a7ff1b3b0ddde/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:15:9-32
 	android:icon
 		ADDED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml:16:9-43
 	android:name
@@ -217,120 +228,138 @@ uses-sdk
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/main/AndroidManifest.xml
+MERGED from [:google_map_location_picker] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_map_location_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_map_location_picker] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_map_location_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_api_availability] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_api_availability] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_inappbrowser] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/flutter_inappbrowser/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_inappbrowser] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/flutter_inappbrowser/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:location] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:location] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_permissions] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_permissions] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/74a8ba81f78c43a4a98a190dcd8ad1e0/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/74a8ba81f78c43a4a98a190dcd8ad1e0/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eba80d28afc3c461a4c8f388764882fd/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eba80d28afc3c461a4c8f388764882fd/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bc4c1b63c930316ac72a945b6bca4ccf/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bc4c1b63c930316ac72a945b6bca4ccf/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7a067871fd251ef4656ed32e9ead1ccd/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7a067871fd251ef4656ed32e9ead1ccd/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/446558717ae36c57616f11f42312ce92/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/446558717ae36c57616f11f42312ce92/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/78a5ca7c1a25bc00f2694d889b323b86/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/78a5ca7c1a25bc00f2694d889b323b86/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ae287f5b0533f8d5e96472290fbf507f/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ae287f5b0533f8d5e96472290fbf507f/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ec65987f16c667a653ea6d9e2b667180/appcompat-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ec65987f16c667a653ea6d9e2b667180/appcompat-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d7796a809e7bcbd7ab3ba3deb22618c7/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d7796a809e7bcbd7ab3ba3deb22618c7/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e27da97111d1eb8664f36ebec244500/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e27da97111d1eb8664f36ebec244500/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eebd8ecb92d044a29ad20a0869d2bc3e/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eebd8ecb92d044a29ad20a0869d2bc3e/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/93efdbce1bf83a1b9f6793165484cd6e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/93efdbce1bf83a1b9f6793165484cd6e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1b0854947331816b67136a2ab05af694/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1b0854947331816b67136a2ab05af694/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9e35f1849cebe7e225f9b26aa18eaee5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9e35f1849cebe7e225f9b26aa18eaee5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.webkit:webkit:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d32f5e5251b3a6ba72a31872ebc356f7/webkit-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.webkit:webkit:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d32f5e5251b3a6ba72a31872ebc356f7/webkit-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5d1067e37a519d88cc904b45647c0478/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5d1067e37a519d88cc904b45647c0478/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9f75383a6cb752799aca290933b1a744/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9f75383a6cb752799aca290933b1a744/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00d093bd154f667d382d7ad9b20e17f3/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00d093bd154f667d382d7ad9b20e17f3/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e8c4a5a16847bbd17cca32e8ec7bd93e/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e8c4a5a16847bbd17cca32e8ec7bd93e/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/aea26a5bb68765d2cf278253bddfc596/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/aea26a5bb68765d2cf278253bddfc596/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/07c4ab197a6be593ecc389558f833762/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/07c4ab197a6be593ecc389558f833762/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/193fc0c881d29c6bfd54186e7ea75679/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/193fc0c881d29c6bfd54186e7ea75679/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bd05ff358a441b1187317d0713274ba6/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bd05ff358a441b1187317d0713274ba6/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d95d9afbfc224a62b60b9b50306404ad/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d95d9afbfc224a62b60b9b50306404ad/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfd8fe2d3f2ad013bf090050c3819a3c/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfd8fe2d3f2ad013bf090050c3819a3c/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/72f43e2bd6efca632c3ff477ad1d20d1/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/72f43e2bd6efca632c3ff477ad1d20d1/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2088685c061b25d1a81961172ae87b98/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2088685c061b25d1a81961172ae87b98/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/258a8b3206ff25113acf91c5b56a39fb/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/258a8b3206ff25113acf91c5b56a39fb/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9cf89af2a1b33a08357d39fdcc0f5c88/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/9cf89af2a1b33a08357d39fdcc0f5c88/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2e68f2fd67042f27816c882671a3da23/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2e68f2fd67042f27816c882671a3da23/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/52adbe96b4e80508a6a611aa0d0b560f/firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/52adbe96b4e80508a6a611aa0d0b560f/firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e17c1ee757096e5f81cc4c4a242898d8/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e17c1ee757096e5f81cc4c4a242898d8/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/69b90917f97d5b2b9a9bfb17f70ebac1/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/69b90917f97d5b2b9a9bfb17f70ebac1/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/332c394ce50a5fa4e296e63376abdda8/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/332c394ce50a5fa4e296e63376abdda8/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1c92bea6a54bbfa9dfbb44dba32d7931/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1c92bea6a54bbfa9dfbb44dba32d7931/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/0e832f3d8b672e7612123bda93363930/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/0e832f3d8b672e7612123bda93363930/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfee4ddb47335fdf9895ac37bca8d4ab/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dfee4ddb47335fdf9895ac37bca8d4ab/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.datatransport:transport-api:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/62458a40863be55137f9d568c8c0115f/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/62458a40863be55137f9d568c8c0115f/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/cbf2ecbb6e2a787454531719303bad55/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/cbf2ecbb6e2a787454531719303bad55/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3d76a79dc136a35ecf7719bf629083d6/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3d76a79dc136a35ecf7719bf629083d6/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/463f3fa1194181e7280ed1f1f3a546ce/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/463f3fa1194181e7280ed1f1f3a546ce/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/fc571bd79e731574d204e2e0ae30d502/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/fc571bd79e731574d204e2e0ae30d502/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e646f5cb4a12843bc2ef500977283a5/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e646f5cb4a12843bc2ef500977283a5/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/49511145c4b31a10020eb82791240da3/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/49511145c4b31a10020eb82791240da3/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6d4a52852aed2c0857143d4acbaa75bc/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6d4a52852aed2c0857143d4acbaa75bc/jetified-play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e814b3120b567a5438b35507da72d18/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3e814b3120b567a5438b35507da72d18/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/14946aadac769c9e6ed65b78d2e0fc9b/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/14946aadac769c9e6ed65b78d2e0fc9b/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e55c427ab1b193a0cd55a0cc7534dbb7/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/e55c427ab1b193a0cd55a0cc7534dbb7/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/39a27e81d465ff0c6a90cc8054754da1/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/39a27e81d465ff0c6a90cc8054754da1/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/af325b78571939e5c92df895405488bf/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/af325b78571939e5c92df895405488bf/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/47d2991886557192089b9c37ed688e24/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/47d2991886557192089b9c37ed688e24/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/aa754b015020262d202b5a9ed0734ca2/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/aa754b015020262d202b5a9ed0734ca2/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/a22be89e0235e39ca0e2f6cbdbd26f6b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/a22be89e0235e39ca0e2f6cbdbd26f6b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7744dcbe6969c1b1a2ceb3dd58272220/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7744dcbe6969c1b1a2ceb3dd58272220/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2079f35556ef13ca8efd00debc6dfe06/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2079f35556ef13ca8efd00debc6dfe06/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d616f5b5e1297c9e72f673dca82d0231/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d616f5b5e1297c9e72f673dca82d0231/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/87b8d425c5214fdf768d9a49c61db218/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/87b8d425c5214fdf768d9a49c61db218/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d0ad5307fcee221bc8523475d58df8ce/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d0ad5307fcee221bc8523475d58df8ce/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d75e534e4220ee0f01df9db538fc5393/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d75e534e4220ee0f01df9db538fc5393/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d1edfdcf1760da98f288f82bb90addf5/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d1edfdcf1760da98f288f82bb90addf5/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/77ee5437e396072d47687f2406d873a4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/77ee5437e396072d47687f2406d873a4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/80eaa07e1ce3d121a63eea3744a3766e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/80eaa07e1ce3d121a63eea3744a3766e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/198b198f000bf1307030b0e493ee63e3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/198b198f000bf1307030b0e493ee63e3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/28c364c6a977dc65d48a7ff1b3b0ddde/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/28c364c6a977dc65d48a7ff1b3b0ddde/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dae40f3f84eb0e2868f6d12697748f23/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/dae40f3f84eb0e2868f6d12697748f23/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3d42d645ae3bdc246fe05001aae57a92/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3d42d645ae3bdc246fe05001aae57a92/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/89c56f234f81a0f12f736230823b49e2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/89c56f234f81a0f12f736230823b49e2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/de4dc03361e0005bca8a80cd20b360c9/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/de4dc03361e0005bca8a80cd20b360c9/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4159605c371c9d664f5483684e0d8076/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4159605c371c9d664f5483684e0d8076/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/319c6bf8dc62570c356a47cb777bda3f/jetified-firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/319c6bf8dc62570c356a47cb777bda3f/jetified-firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/fb6877c77963ef5f4854283c74ba6d5d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/fb6877c77963ef5f4854283c74ba6d5d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c3f05024464c5b358ce6b643f45e1a3d/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c3f05024464c5b358ce6b643f45e1a3d/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f09edfa94da321f46330cf62404e899f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f09edfa94da321f46330cf62404e899f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/61bdb9f6e408c1aa18637d7f2108aee2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/61bdb9f6e408c1aa18637d7f2108aee2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f15847e145ffff4a0ed23141f5e439e9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f15847e145ffff4a0ed23141f5e439e9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2166cbf07f3feb26e8dcf2505b1b9c03/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2166cbf07f3feb26e8dcf2505b1b9c03/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ac8a19a8de8405bd3536de75ee60c08a/jetified-transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/ac8a19a8de8405bd3536de75ee60c08a/jetified-transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f9c6cf9bfafb8eab388d45f3e5c909e0/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/f9c6cf9bfafb8eab388d45f3e5c909e0/multidex-2.0.0/AndroidManifest.xml:20:5-43
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -367,22 +396,22 @@ ADDED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyF
 		ADDED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
-MERGED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:35:9-41:19
-MERGED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:35:9-41:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:14:9-20:19
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:14:9-20:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:37:13-37
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:37:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
 	android:name
 		ADDED from [:firebase_messaging] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar
@@ -400,130 +429,130 @@ ADDED from [:url_launcher] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/
 	android:name
 		ADDED from [:url_launcher] /home/jo-kinathany/Downloads/Compressed/BreezyFlutte/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:29:13-82
 meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
-ADDED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:38:13-40:85
+ADDED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:38:13-40:85
 	android:value
-		ADDED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:40:17-82
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:40:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:20.1.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbc0f57131ec2bb3afd9d451b8f35d97/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:39:17-119
-meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
-ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
-	android:value
-		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/977ab914f11c1712d618c20f64ad11fa/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/eefe41196418cb014782bbe41612e9e4/jetified-firebase-messaging-20.1.7/AndroidManifest.xml:39:17-119
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:22:22-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:24:5-68
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:24:22-65
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:26:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:26:22-79
-meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:33:17-96
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:37:9-44:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:39:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:40:13-73
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:38:13-78
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:41:13-43:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:42:17-81
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.1.2] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/7e95c2318c5856388eb73305212cc55a/firebase-iid-20.1.2/AndroidManifest.xml:42:25-78
-meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
-ADDED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:17:13-19:85
-	android:value
-		ADDED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:19:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-installations:16.1.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/21f364cbe1c49a75f13d1eca5fb4cc8a/firebase-installations-16.1.0/AndroidManifest.xml:18:17-127
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/757da89c140b55486aa29cafdd35882d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/91175de71de3268685b36b3bdd99c439/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/2c2819a55a9c4b78ebbc2d00750e51eb/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/84b66bfae77f5673667f3c709c52a784/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/d4996196b9d8f65ff67eba2131a792f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
-ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
-meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
-ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
-	android:value
-		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
-	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/c9f4afe5545ea96da21dc8770a7e97a4/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
-service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
-ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
-	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
-receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
-ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/4d5a27e32ec068203749ff96dd3ba93d/jetified-firebase-iid-20.1.7/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/6647fc457ebb21d9df489c8364f7359f/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/00c69f4b2be489f249119ecfc3c42615/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/1970b917a35c4014be626bd75788cb9a/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/3ed75a7bb99df342ff24603056d38443/jetified-firebase-installations-16.3.0/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/bbf7540012ce1ee5c2bc77fbcaa6783e/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/14946aadac769c9e6ed65b78d2e0fc9b/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/14946aadac769c9e6ed65b78d2e0fc9b/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/14946aadac769c9e6ed65b78d2e0fc9b/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/5558f413d2a7162becc6f59c328d6282/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /home/jo-kinathany/.gradle/caches/transforms-2/files-2.1/76ace01a579a1c417e7f33de2f1faa09/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
