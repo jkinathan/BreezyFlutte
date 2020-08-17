@@ -1,4 +1,4 @@
 {
-  "base_url": "http://49e24fe8c830.ngrok.io/multi-restaurants/public/",
-  "api_base_url": "http://49e24fe8c830.ngrok.io/multi-restaurants/public/api/"
+  "base_url": "https://multi-restaurants.smartersvision.com",
+  "api_base_url": "https://multi-restaurants.smartersvision.com/api/"
 }
