@@ -1,6 +1,8 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:global_configuration/global_configuration.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'generated/i18n.dart';
 import 'route_generator.dart';
@@ -23,6 +25,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   void initState() {
+    SharedPreferences.setMockInitialValues({});
     settingRepo.initSettings();
     settingRepo.getCurrentLocation();
     userRepo.getCurrentUser();
@@ -48,28 +51,56 @@ class _MyAppState extends State<MyApp> {
                 GlobalWidgetsLocalizations.delegate,
               ],
               supportedLocales: S.delegate.supportedLocales,
-              localeListResolutionCallback: S.delegate.listResolution(fallback: const Locale('en', '')),
+              localeListResolutionCallback:
+                  S.delegate.listResolution(fallback: const Locale('en', '')),
               theme: _setting.brightness.value == Brightness.light
                   ? ThemeData(
                       fontFamily: 'Poppins',
                       primaryColor: Colors.white,
-                      floatingActionButtonTheme: FloatingActionButtonThemeData(elevation: 0, foregroundColor: Colors.white),
+                      floatingActionButtonTheme: FloatingActionButtonThemeData(
+                          elevation: 0, foregroundColor: Colors.white),
                       brightness: Brightness.light,
                       accentColor: config.Colors().mainColor(1),
                       dividerColor: config.Colors().accentColor(0.1),
                       focusColor: config.Colors().accentColor(1),
                       hintColor: config.Colors().secondColor(1),
                       textTheme: TextTheme(
-                        headline: TextStyle(fontSize: 20.0, color: config.Colors().secondColor(1)),
-                        display1: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: config.Colors().secondColor(1)),
-                        display2: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w600, color: config.Colors().secondColor(1)),
-                        display3: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w700, color: config.Colors().mainColor(1)),
-                        display4: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w300, color: config.Colors().secondColor(1)),
-                        subhead: TextStyle(fontSize: 15.0, fontWeight: FontWeight.w500, color: config.Colors().secondColor(1)),
-                        title: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, color: config.Colors().mainColor(1)),
-                        body1: TextStyle(fontSize: 12.0, color: config.Colors().secondColor(1)),
-                        body2: TextStyle(fontSize: 14.0, color: config.Colors().secondColor(1)),
-                        caption: TextStyle(fontSize: 12.0, color: config.Colors().accentColor(1)),
+                        headline: TextStyle(
+                            fontSize: 20.0,
+                            color: config.Colors().secondColor(1)),
+                        display1: TextStyle(
+                            fontSize: 18.0,
+                            fontWeight: FontWeight.w600,
+                            color: config.Colors().secondColor(1)),
+                        display2: TextStyle(
+                            fontSize: 20.0,
+                            fontWeight: FontWeight.w600,
+                            color: config.Colors().secondColor(1)),
+                        display3: TextStyle(
+                            fontSize: 22.0,
+                            fontWeight: FontWeight.w700,
+                            color: config.Colors().mainColor(1)),
+                        display4: TextStyle(
+                            fontSize: 22.0,
+                            fontWeight: FontWeight.w300,
+                            color: config.Colors().secondColor(1)),
+                        subhead: TextStyle(
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.w500,
+                            color: config.Colors().secondColor(1)),
+                        title: TextStyle(
+                            fontSize: 16.0,
+                            fontWeight: FontWeight.w600,
+                            color: config.Colors().mainColor(1)),
+                        body1: TextStyle(
+                            fontSize: 12.0,
+                            color: config.Colors().secondColor(1)),
+                        body2: TextStyle(
+                            fontSize: 14.0,
+                            color: config.Colors().secondColor(1)),
+                        caption: TextStyle(
+                            fontSize: 12.0,
+                            color: config.Colors().accentColor(1)),
                       ),
                     )
                   : ThemeData(
@@ -82,16 +113,42 @@ class _MyAppState extends State<MyApp> {
                       hintColor: config.Colors().secondDarkColor(1),
                       focusColor: config.Colors().accentDarkColor(1),
                       textTheme: TextTheme(
-                        headline: TextStyle(fontSize: 20.0, color: config.Colors().secondDarkColor(1)),
-                        display1: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: config.Colors().secondDarkColor(1)),
-                        display2: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w600, color: config.Colors().secondDarkColor(1)),
-                        display3: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w700, color: config.Colors().mainDarkColor(1)),
-                        display4: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w300, color: config.Colors().secondDarkColor(1)),
-                        subhead: TextStyle(fontSize: 15.0, fontWeight: FontWeight.w500, color: config.Colors().secondDarkColor(1)),
-                        title: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, color: config.Colors().mainDarkColor(1)),
-                        body1: TextStyle(fontSize: 12.0, color: config.Colors().secondDarkColor(1)),
-                        body2: TextStyle(fontSize: 14.0, color: config.Colors().secondDarkColor(1)),
-                        caption: TextStyle(fontSize: 12.0, color: config.Colors().secondDarkColor(0.6)),
+                        headline: TextStyle(
+                            fontSize: 20.0,
+                            color: config.Colors().secondDarkColor(1)),
+                        display1: TextStyle(
+                            fontSize: 18.0,
+                            fontWeight: FontWeight.w600,
+                            color: config.Colors().secondDarkColor(1)),
+                        display2: TextStyle(
+                            fontSize: 20.0,
+                            fontWeight: FontWeight.w600,
+                            color: config.Colors().secondDarkColor(1)),
+                        display3: TextStyle(
+                            fontSize: 22.0,
+                            fontWeight: FontWeight.w700,
+                            color: config.Colors().mainDarkColor(1)),
+                        display4: TextStyle(
+                            fontSize: 22.0,
+                            fontWeight: FontWeight.w300,
+                            color: config.Colors().secondDarkColor(1)),
+                        subhead: TextStyle(
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.w500,
+                            color: config.Colors().secondDarkColor(1)),
+                        title: TextStyle(
+                            fontSize: 16.0,
+                            fontWeight: FontWeight.w600,
+                            color: config.Colors().mainDarkColor(1)),
+                        body1: TextStyle(
+                            fontSize: 12.0,
+                            color: config.Colors().secondDarkColor(1)),
+                        body2: TextStyle(
+                            fontSize: 14.0,
+                            color: config.Colors().secondDarkColor(1)),
+                        caption: TextStyle(
+                            fontSize: 12.0,
+                            color: config.Colors().secondDarkColor(0.6)),
                       ),
                     ));
         });

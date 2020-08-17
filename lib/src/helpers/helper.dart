@@ -40,13 +40,17 @@ class Helper {
 
   static Future<Uint8List> getBytesFromAsset(String path, int width) async {
     ByteData data = await rootBundle.load(path);
-    ui.Codec codec = await ui.instantiateImageCodec(data.buffer.asUint8List(), targetWidth: width);
+    ui.Codec codec = await ui.instantiateImageCodec(data.buffer.asUint8List(),
+        targetWidth: width);
     ui.FrameInfo fi = await codec.getNextFrame();
-    return (await fi.image.toByteData(format: ui.ImageByteFormat.png)).buffer.asUint8List();
+    return (await fi.image.toByteData(format: ui.ImageByteFormat.png))
+        .buffer
+        .asUint8List();
   }
 
   static Future<Marker> getMarker(Map<String, dynamic> res) async {
-    final Uint8List markerIcon = await getBytesFromAsset('assets/img/marker.png', 120);
+    final Uint8List markerIcon =
+        await getBytesFromAsset('assets/img/marker.png', 120);
     final Marker marker = Marker(
         markerId: MarkerId(res['id']),
         icon: BitmapDescriptor.fromBytes(markerIcon),
@@ -60,13 +64,16 @@ class Helper {
             onTap: () {
               print('infowi tap');
             }),
-        position: LatLng(double.parse(res['latitude']), double.parse(res['longitude'])));
+        position: LatLng(
+            double.parse(res['latitude']), double.parse(res['longitude'])));
 
     return marker;
   }
 
-  static Future<Marker> getMyPositionMarker(double latitude, double longitude) async {
-    final Uint8List markerIcon = await getBytesFromAsset('assets/img/my_marker.png', 120);
+  static Future<Marker> getMyPositionMarker(
+      double latitude, double longitude) async {
+    final Uint8List markerIcon =
+        await getBytesFromAsset('assets/img/my_marker.png', 120);
     final Marker marker = Marker(
         markerId: MarkerId(Random().nextInt(100).toString()),
         icon: BitmapDescriptor.fromBytes(markerIcon),
@@ -84,7 +91,8 @@ class Helper {
     if (rate - rate.floor() > 0) {
       list.add(Icon(Icons.star_half, size: size, color: Color(0xFFFFB24D)));
     }
-    list.addAll(List.generate(5 - rate.floor() - (rate - rate.floor()).ceil(), (index) {
+    list.addAll(
+        List.generate(5 - rate.floor() - (rate - rate.floor()).ceil(), (index) {
       return Icon(Icons.star_border, size: size, color: Color(0xFFFFB24D));
     }));
     return list;
@@ -108,7 +116,8 @@ class Helper {
 //    }
 //  }
 
-  static Widget getPrice(double myPrice, BuildContext context, {TextStyle style}) {
+  static Widget getPrice(double myPrice, BuildContext context,
+      {TextStyle style}) {
     if (style != null) {
       style = style.merge(TextStyle(fontSize: style.fontSize + 2));
     }
@@ -120,12 +129,15 @@ class Helper {
         softWrap: false,
         overflow: TextOverflow.fade,
         maxLines: 1,
-        text: setting.value?.currencyRight != null && setting.value?.currencyRight == false
+        text: setting.value?.currencyRight != null &&
+                setting.value?.currencyRight == false
             ? TextSpan(
                 text: setting.value?.defaultCurrency,
                 style: style ?? Theme.of(context).textTheme.subhead,
                 children: <TextSpan>[
-                  TextSpan(text: myPrice.toStringAsFixed(2) ?? '', style: style ?? Theme.of(context).textTheme.subhead),
+                  TextSpan(
+                      text: myPrice.toStringAsFixed(2) ?? '',
+                      style: style ?? Theme.of(context).textTheme.subhead),
                 ],
               )
             : TextSpan(
@@ -135,7 +147,11 @@ class Helper {
                   TextSpan(
                       text: setting.value?.defaultCurrency,
                       style: TextStyle(
-                          fontWeight: FontWeight.w400, fontSize: style != null ? style.fontSize - 4 : Theme.of(context).textTheme.subhead.fontSize - 4)),
+                          fontWeight: FontWeight.w400,
+                          fontSize: style != null
+                              ? style.fontSize - 4
+                              : Theme.of(context).textTheme.subhead.fontSize -
+                                  4)),
                 ],
               ),
       );
@@ -183,7 +199,9 @@ class Helper {
     if (unit == 'km') {
       distance *= 1.60934;
     }
-    return distance != null ? distance.toStringAsFixed(2) + " " + trans(unit) : "";
+    return distance != null
+        ? distance.toStringAsFixed(2) + " " + trans(unit)
+        : "";
   }
 
   static bool canDelivery(Restaurant _restaurant, {List<Cart> carts}) {
@@ -191,7 +209,8 @@ class Helper {
     carts?.forEach((Cart _cart) {
       _can &= _cart.food.deliverable;
     });
-    _can &= _restaurant.availableForDelivery && (_restaurant.distance <= _restaurant.deliveryRange);
+    _can &= _restaurant.availableForDelivery &&
+        (_restaurant.distance <= _restaurant.deliveryRange);
     return _can;
   }
 
@@ -209,7 +228,8 @@ class Helper {
     return Html(
       blockSpacing: 0,
       data: html ?? '',
-      defaultTextStyle: style ?? Theme.of(context).textTheme.body2.merge(TextStyle(fontSize: 14)),
+      defaultTextStyle: style ??
+          Theme.of(context).textTheme.body2.merge(TextStyle(fontSize: 14)),
       useRichText: false,
       customRender: (node, children) {
         if (node is dom.Element) {
@@ -260,8 +280,10 @@ class Helper {
     });
   }
 
-  static String limitString(String text, {int limit = 24, String hiddenText = "..."}) {
-    return text.substring(0, min<int>(limit, text.length)) + (text.length > limit ? hiddenText : '');
+  static String limitString(String text,
+      {int limit = 24, String hiddenText = "..."}) {
+    return text.substring(0, min<int>(limit, text.length)) +
+        (text.length > limit ? hiddenText : '');
   }
 
   static String getCreditCardNumber(String number) {
