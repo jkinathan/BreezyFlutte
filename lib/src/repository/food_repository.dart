@@ -17,7 +17,6 @@ import '../repository/user_repository.dart' as userRepo;
 
 Future<Stream<Food>> getTrendingFoods(Address address) async {
   Uri uri = Helper.getUri('api/foods');
-  print('help >>>>>' + ' ' + uri.toString());
   Map<String, dynamic> _queryParams = {};
   SharedPreferences prefs = await SharedPreferences.getInstance();
   Filter filter =
