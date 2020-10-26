@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/map_controller.dart';
 import '../elements/CardsCarouselWidget.dart';
 import '../elements/CircularLoadingWidget.dart';
@@ -57,7 +57,7 @@ class _MapWidgetState extends StateMVC<MapWidget> {
               ),
         title: Text(
           S.of(context).maps_explorer,
-          style: Theme.of(context).textTheme.title.merge(TextStyle(letterSpacing: 1.3)),
+          style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 1.3)),
         ),
         actions: <Widget>[
           IconButton(

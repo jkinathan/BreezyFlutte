@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../controllers/splash_screen_controller.dart';
 
@@ -59,8 +58,7 @@ class SplashScreenState extends StateMVC<SplashScreen> {
               ),
               SizedBox(height: 50),
               CircularProgressIndicator(
-                valueColor:
-                    AlwaysStoppedAnimation<Color>(Theme.of(context).hintColor),
+                valueColor: AlwaysStoppedAnimation<Color>(Theme.of(context).hintColor),
               ),
             ],
           ),

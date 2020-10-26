@@ -76,7 +76,7 @@ class _CartItemWidgetState extends State<CartItemWidget> {
                             widget.cart.food.name,
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
-                            style: Theme.of(context).textTheme.subhead,
+                            style: Theme.of(context).textTheme.subtitle1,
                           ),
                           Wrap(
                             children: List.generate(widget.cart.extras.length, (index) {
@@ -86,7 +86,17 @@ class _CartItemWidgetState extends State<CartItemWidget> {
                               );
                             }),
                           ),
-                          Helper.getPrice(widget.cart.food.price, context, style: Theme.of(context).textTheme.display1)
+                          Wrap(
+                            crossAxisAlignment: WrapCrossAlignment.center,
+                            spacing: 5,
+                            children: <Widget>[
+                              Helper.getPrice(widget.cart.food.price, context, style: Theme.of(context).textTheme.headline4, zeroPlaceholder: 'Free'),
+                              widget.cart.food.discountPrice > 0
+                                  ? Helper.getPrice(widget.cart.food.discountPrice, context,
+                                      style: Theme.of(context).textTheme.bodyText1.merge(TextStyle(decoration: TextDecoration.lineThrough)))
+                                  : SizedBox(height: 0),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -105,7 +115,7 @@ class _CartItemWidgetState extends State<CartItemWidget> {
                           icon: Icon(Icons.add_circle_outline),
                           color: Theme.of(context).hintColor,
                         ),
-                        Text(widget.cart.quantity.toString(), style: Theme.of(context).textTheme.subhead),
+                        Text(widget.cart.quantity.toString(), style: Theme.of(context).textTheme.subtitle1),
                         IconButton(
                           onPressed: () {
                             setState(() {

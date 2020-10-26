@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../controllers/walkthrough_controller.dart';
-
 class Walkthrough extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -22,12 +20,6 @@ class WalkthroughWidget extends StatefulWidget {
 }
 
 class _WalkthroughWidgetState extends StateMVC<WalkthroughWidget> {
-  WalkthroughController _con;
-
-  _WalkthroughWidgetState() : super(WalkthroughController()) {
-    _con = controller;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Container();

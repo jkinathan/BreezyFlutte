@@ -19,6 +19,7 @@ import 'src/pages/pages.dart';
 import 'src/pages/payment_methods.dart';
 import 'src/pages/paypal_payment.dart';
 import 'src/pages/profile.dart';
+import 'src/pages/razorpay_payment.dart';
 import 'src/pages/reviews.dart';
 import 'src/pages/settings.dart';
 import 'src/pages/signup.dart';
@@ -49,7 +50,7 @@ class RouteGenerator {
       case '/Pages':
         return MaterialPageRoute(builder: (_) => PagesWidget(currentTab: args));
       case '/Details':
-        return MaterialPageRoute(builder: (_) => DetailsWidget(routeArgument: args as RouteArgument));
+        return MaterialPageRoute(builder: (_) => DetailsWidget(routeArgument: args));
       case '/Menu':
         return MaterialPageRoute(builder: (_) => MenuWidget(routeArgument: args as RouteArgument));
       case '/Food':
@@ -76,6 +77,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => OrderSuccessWidget(routeArgument: RouteArgument(param: 'Pay on Pickup')));
       case '/PayPal':
         return MaterialPageRoute(builder: (_) => PayPalPaymentWidget(routeArgument: args as RouteArgument));
+      case '/RazorPay':
+        return MaterialPageRoute(builder: (_) => RazorPayPaymentWidget(routeArgument: args as RouteArgument));
       case '/OrderSuccess':
         return MaterialPageRoute(builder: (_) => OrderSuccessWidget(routeArgument: args as RouteArgument));
       case '/Languages':
@@ -86,7 +89,7 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => SettingsWidget());
       default:
         // If there is no such named route in the switch statement, e.g. /third
-        return MaterialPageRoute(builder: (_) => Scaffold(body: SizedBox(height: 0)));
+        return MaterialPageRoute(builder: (_) => Scaffold(body: SafeArea(child: Text('Route Error'))));
     }
   }
 }

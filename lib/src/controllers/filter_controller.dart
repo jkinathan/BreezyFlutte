@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../models/cart.dart';
 import '../models/cuisine.dart';
 import '../models/filter.dart';
@@ -37,7 +37,7 @@ class FilterController extends ControllerMVC {
   }
 
   void listenForCuisines({String message}) async {
-    cuisines.add(new Cuisine.fromJSON({'id': '0', 'name': S.current.all, 'selected': true}));
+    cuisines.add(new Cuisine.fromJSON({'id': '0', 'name': S.of(context).all, 'selected': true}));
     final Stream<Cuisine> stream = await getCuisines();
     stream.listen((Cuisine _cuisine) {
       setState(() {
@@ -49,12 +49,12 @@ class FilterController extends ControllerMVC {
       });
     }, onError: (a) {
       print(a);
-      scaffoldKey.currentState.showSnackBar(SnackBar(
-        content: Text(S.current.verify_your_internet_connection),
+      scaffoldKey?.currentState?.showSnackBar(SnackBar(
+        content: Text(S.of(context).verify_your_internet_connection),
       ));
     }, onDone: () {
       if (message != null) {
-        scaffoldKey.currentState.showSnackBar(SnackBar(
+        scaffoldKey?.currentState?.showSnackBar(SnackBar(
           content: Text(message),
         ));
       }
@@ -63,7 +63,7 @@ class FilterController extends ControllerMVC {
 
   Future<void> refreshCuisines() async {
     cuisines.clear();
-    listenForCuisines(message: S.current.addresses_refreshed_successfuly);
+    listenForCuisines(message: S.of(context).addresses_refreshed_successfuly);
   }
 
   void clearFilter() {

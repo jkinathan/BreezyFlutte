@@ -1,3 +1,4 @@
+import '../helpers/custom_trace.dart';
 import '../models/food.dart';
 import '../models/restaurant.dart';
 import '../models/user.dart';
@@ -16,13 +17,13 @@ class Review {
       id = jsonMap['id'].toString();
       review = jsonMap['review'];
       rate = jsonMap['rate'].toString() ?? '0';
-      user = jsonMap['user'] != null ? User.fromJSON(jsonMap['user']) : new User();
+      user = jsonMap['user'] != null ? User.fromJSON(jsonMap['user']) : User.fromJSON({});
     } catch (e) {
       id = '';
       review = '';
       rate = '0';
-      user = new User();
-      print(e);
+      user = User.fromJSON({});
+      print(CustomTrace(StackTrace.current, message: e));
     }
   }
 
@@ -51,4 +52,12 @@ class Review {
     map["food_id"] = food.id;
     return map;
   }
+
+  @override
+  bool operator ==(dynamic other) {
+    return other.id == this.id;
+  }
+
+  @override
+  int get hashCode => this.id.hashCode;
 }

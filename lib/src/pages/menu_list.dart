@@ -1,7 +1,9 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/restaurant_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../elements/DrawerWidget.dart';
@@ -9,6 +11,7 @@ import '../elements/FoodItemWidget.dart';
 import '../elements/FoodsCarouselWidget.dart';
 import '../elements/SearchBarWidget.dart';
 import '../elements/ShoppingCartButtonWidget.dart';
+import '../models/restaurant.dart';
 import '../models/route_argument.dart';
 
 class MenuWidget extends StatefulWidget {
@@ -21,6 +24,7 @@ class MenuWidget extends StatefulWidget {
 
 class _MenuWidgetState extends StateMVC<MenuWidget> {
   RestaurantController _con;
+  List<String> selectedCategories;
 
   _MenuWidgetState() : super(RestaurantController()) {
     _con = controller;
@@ -28,8 +32,11 @@ class _MenuWidgetState extends StateMVC<MenuWidget> {
 
   @override
   void initState() {
-    _con.listenForFoods(widget.routeArgument.id);
+    _con.restaurant = (new Restaurant())..id = widget.routeArgument.id;
     _con.listenForTrendingFoods(widget.routeArgument.id);
+    _con.listenForCategories(widget.routeArgument.id);
+    selectedCategories = ['0'];
+    _con.listenForFoods(widget.routeArgument.id);
     super.initState();
   }
 
@@ -42,11 +49,16 @@ class _MenuWidgetState extends StateMVC<MenuWidget> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         centerTitle: true,
+        automaticallyImplyLeading: false,
+        leading: new IconButton(
+          icon: new Icon(Icons.arrow_back, color: Theme.of(context).hintColor),
+          onPressed: () => Navigator.pop(context),
+        ),
         title: Text(
-          _con.foods.isNotEmpty ? _con.foods[0].restaurant.name : '',
+          _con.restaurant?.name ?? '',
           overflow: TextOverflow.fade,
           softWrap: false,
-          style: Theme.of(context).textTheme.title.merge(TextStyle(letterSpacing: 0)),
+          style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 0)),
         ),
         actions: <Widget>[
           new ShoppingCartButtonWidget(iconColor: Theme.of(context).hintColor, labelColor: Theme.of(context).accentColor),
@@ -68,16 +80,17 @@ class _MenuWidgetState extends StateMVC<MenuWidget> {
               dense: true,
               contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               leading: Icon(
-                Icons.trending_up,
+                Icons.bookmark,
                 color: Theme.of(context).hintColor,
               ),
               title: Text(
-                S.of(context).trending_this_week,
-                style: Theme.of(context).textTheme.display1,
+                S.of(context).featured_foods,
+                style: Theme.of(context).textTheme.headline4,
               ),
               subtitle: Text(
-                S.of(context).double_click_on_the_food_to_add_it_to_the,
-                style: Theme.of(context).textTheme.caption.merge(TextStyle(fontSize: 11)),
+                S.of(context).clickOnTheFoodToGetMoreDetailsAboutIt,
+                maxLines: 2,
+                style: Theme.of(context).textTheme.caption,
               ),
             ),
             FoodsCarouselWidget(heroTag: 'menu_trending_food', foodsList: _con.trendingFoods),
@@ -85,18 +98,80 @@ class _MenuWidgetState extends StateMVC<MenuWidget> {
               dense: true,
               contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               leading: Icon(
-                Icons.list,
+                Icons.subject,
                 color: Theme.of(context).hintColor,
               ),
               title: Text(
                 S.of(context).all_menu,
-                style: Theme.of(context).textTheme.display1,
+                style: Theme.of(context).textTheme.headline4,
               ),
               subtitle: Text(
-                S.of(context).longpress_on_the_food_to_add_suplements,
-                style: Theme.of(context).textTheme.caption.merge(TextStyle(fontSize: 11)),
+                S.of(context).clickOnTheFoodToGetMoreDetailsAboutIt,
+                maxLines: 2,
+                style: Theme.of(context).textTheme.caption,
               ),
             ),
+            _con.categories.isEmpty
+                ? SizedBox(height: 90)
+                : Container(
+                    height: 90,
+                    child: ListView(
+                      primary: false,
+                      shrinkWrap: true,
+                      scrollDirection: Axis.horizontal,
+                      children: List.generate(_con.categories.length, (index) {
+                        var _category = _con.categories.elementAt(index);
+                        var _selected = this.selectedCategories.contains(_category.id);
+                        return Padding(
+                          padding: const EdgeInsetsDirectional.only(start: 20),
+                          child: RawChip(
+                            elevation: 0,
+                            label: Text(_category.name),
+                            labelStyle: _selected
+                                ? Theme.of(context).textTheme.bodyText2.merge(TextStyle(color: Theme.of(context).primaryColor))
+                                : Theme.of(context).textTheme.bodyText2,
+                            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 15),
+                            backgroundColor: Theme.of(context).focusColor.withOpacity(0.1),
+                            selectedColor: Theme.of(context).accentColor,
+                            selected: _selected,
+                            //shape: StadiumBorder(side: BorderSide(color: Theme.of(context).focusColor.withOpacity(0.05))),
+                            showCheckmark: false,
+                            avatar: (_category.id == '0')
+                                ? null
+                                : (_category.image.url.toLowerCase().endsWith('.svg')
+                                    ? SvgPicture.network(
+                                        _category.image.url,
+                                        color: _selected ? Theme.of(context).primaryColor : Theme.of(context).accentColor,
+                                      )
+                                    : CachedNetworkImage(
+                                        fit: BoxFit.cover,
+                                        imageUrl: _category.image.icon,
+                                        placeholder: (context, url) => Image.asset(
+                                          'assets/img/loading.gif',
+                                          fit: BoxFit.cover,
+                                        ),
+                                        errorWidget: (context, url, error) => Icon(Icons.error),
+                                      )),
+                            onSelected: (bool value) {
+                              setState(() {
+                                if (_category.id == '0') {
+                                  this.selectedCategories = ['0'];
+                                } else {
+                                  this.selectedCategories.removeWhere((element) => element == '0');
+                                }
+                                if (value) {
+                                  this.selectedCategories.add(_category.id);
+                                } else {
+                                  this.selectedCategories.removeWhere((element) => element == _category.id);
+                                }
+                                _con.selectCategory(this.selectedCategories);
+                              });
+                            },
+                          ),
+                        );
+                      }),
+                    ),
+                  ),
             _con.foods.isEmpty
                 ? CircularLoadingWidget(height: 250)
                 : ListView.separated(

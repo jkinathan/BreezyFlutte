@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../elements/DrawerWidget.dart';
 import '../elements/FilterWidget.dart';
+import '../helpers/helper.dart';
 import '../models/route_argument.dart';
 import '../pages/favorites.dart';
 import '../pages/home.dart';
@@ -74,7 +75,7 @@ class _PagesWidgetState extends State<PagesWidget> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () async => false,
+      onWillPop: Helper.of(context).onWillPop,
       child: Scaffold(
         key: widget.scaffoldKey,
         drawer: DrawerWidget(),

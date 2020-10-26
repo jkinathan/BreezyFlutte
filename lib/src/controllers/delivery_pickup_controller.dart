@@ -1,32 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../models/address.dart' as model;
-import '../models/cart.dart';
-import '../repository/cart_repository.dart';
+import '../models/payment_method.dart';
 import '../repository/settings_repository.dart' as settingRepo;
 import '../repository/user_repository.dart' as userRepo;
+import 'cart_controller.dart';
 
-class DeliveryPickupController extends ControllerMVC {
+class DeliveryPickupController extends CartController {
   GlobalKey<ScaffoldState> scaffoldKey;
   model.Address deliveryAddress;
-  List<Cart> carts = [];
+  PaymentMethodList list;
 
   DeliveryPickupController() {
     this.scaffoldKey = new GlobalKey<ScaffoldState>();
-    listenForCart();
+    super.listenForCarts();
     listenForDeliveryAddress();
     print(settingRepo.deliveryAddress.value.toMap());
-  }
-
-  void listenForCart() async {
-    final Stream<Cart> stream = await getCart();
-    stream.listen((Cart _cart) {
-      setState(() {
-        carts.add(_cart);
-      });
-    });
   }
 
   void listenForDeliveryAddress() async {
@@ -42,7 +32,7 @@ class DeliveryPickupController extends ControllerMVC {
       });
     }).whenComplete(() {
       scaffoldKey?.currentState?.showSnackBar(SnackBar(
-        content: Text(S.current.new_address_added_successfully),
+        content: Text(S.of(context).new_address_added_successfully),
       ));
     });
   }
@@ -55,8 +45,47 @@ class DeliveryPickupController extends ControllerMVC {
       });
     }).whenComplete(() {
       scaffoldKey?.currentState?.showSnackBar(SnackBar(
-        content: Text(S.current.the_address_updated_successfully),
+        content: Text(S.of(context).the_address_updated_successfully),
       ));
     });
+  }
+
+  PaymentMethod getPickUpMethod() {
+    return list.pickupList.elementAt(0);
+  }
+
+  PaymentMethod getDeliveryMethod() {
+    return list.pickupList.elementAt(1);
+  }
+
+  void toggleDelivery() {
+    list.pickupList.forEach((element) {
+      if (element != getDeliveryMethod()) {
+        element.selected = false;
+      }
+    });
+    setState(() {
+      getDeliveryMethod().selected = !getDeliveryMethod().selected;
+    });
+  }
+
+  void togglePickUp() {
+    list.pickupList.forEach((element) {
+      if (element != getPickUpMethod()) {
+        element.selected = false;
+      }
+    });
+    setState(() {
+      getPickUpMethod().selected = !getPickUpMethod().selected;
+    });
+  }
+
+  PaymentMethod getSelectedMethod() {
+    return list.pickupList.firstWhere((element) => element.selected);
+  }
+
+  @override
+  void goCheckout(BuildContext context) {
+    Navigator.of(context).pushNamed(getSelectedMethod().route);
   }
 }

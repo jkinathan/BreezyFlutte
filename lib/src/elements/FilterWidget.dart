@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/filter_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../models/filter.dart';
@@ -41,7 +41,7 @@ class _FilterWidgetState extends StateMVC<FilterWidget> {
                     },
                     child: Text(
                       S.of(context).clear,
-                      style: Theme.of(context).textTheme.body2,
+                      style: Theme.of(context).textTheme.bodyText1,
                     ),
                   )
                 ],

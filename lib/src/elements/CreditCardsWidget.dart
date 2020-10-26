@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../elements/PaymentSettingsDialog.dart';
 import '../helpers/helper.dart';
 import '../models/credit_card.dart';
@@ -88,7 +88,7 @@ class CreditCardsWidget extends StatelessWidget {
                 ),
                 Text(
                   Helper.getCreditCardNumber(creditCard.number),
-                  style: Theme.of(context).textTheme.body2.merge(TextStyle(letterSpacing: 1.4)),
+                  style: Theme.of(context).textTheme.bodyText1.merge(TextStyle(letterSpacing: 1.4)),
                 ),
                 SizedBox(height: 15),
                 Row(
@@ -109,11 +109,11 @@ class CreditCardsWidget extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       '${creditCard.expMonth}/${creditCard.expYear}',
-                      style: Theme.of(context).textTheme.body2.merge(TextStyle(letterSpacing: 1.4)),
+                      style: Theme.of(context).textTheme.bodyText1.merge(TextStyle(letterSpacing: 1.4)),
                     ),
                     Text(
                       creditCard.cvc,
-                      style: Theme.of(context).textTheme.body2.merge(TextStyle(letterSpacing: 1.4)),
+                      style: Theme.of(context).textTheme.bodyText1.merge(TextStyle(letterSpacing: 1.4)),
                     ),
                   ],
                 )

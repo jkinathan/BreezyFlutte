@@ -62,16 +62,17 @@ class CustomTrace {
       To get the line number, we would have to get the second index
       To get the column number, we would have to get the third index
     */
-
-    this.fileName = listOfInfos[0];
-    this.lineNumber = int.parse(listOfInfos[1]);
-    var columnStr = listOfInfos[2];
-    columnStr = columnStr.replaceFirst(")", "");
-    this.columnNumber = int.parse(columnStr);
+    try {
+      this.fileName = listOfInfos[0];
+      this.lineNumber = int.parse(listOfInfos[1]);
+      var columnStr = listOfInfos[2];
+      columnStr = columnStr.replaceFirst(")", "");
+      this.columnNumber = int.parse(columnStr);
+    } catch (e) {}
   }
 
   @override
   String toString() {
-    return "Error in ($functionName) | [$message] ";
+    return "Log [$message] | ($functionName)";
   }
 }

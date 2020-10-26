@@ -115,7 +115,7 @@ class _ExtraItemWidgetState extends State<ExtraItemWidget> with SingleTickerProv
                         widget.extra?.name,
                         overflow: TextOverflow.ellipsis,
                         maxLines: 2,
-                        style: Theme.of(context).textTheme.subhead,
+                        style: Theme.of(context).textTheme.subtitle1,
                       ),
                       Text(
                         Helper.skipHtml(widget.extra.description),
@@ -127,7 +127,7 @@ class _ExtraItemWidgetState extends State<ExtraItemWidget> with SingleTickerProv
                   ),
                 ),
                 SizedBox(width: 8),
-                Helper.getPrice(widget.extra.price, context, style: Theme.of(context).textTheme.display1),
+                Helper.getPrice(widget.extra.price, context, style: Theme.of(context).textTheme.headline4),
               ],
             ),
           )

@@ -2,7 +2,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../helpers/helper.dart';
 import '../models/user.dart';
 import '../repository/user_repository.dart' as repository;
@@ -37,14 +37,14 @@ class UserController extends ControllerMVC {
         if (value != null && value.apiToken != null) {
           Navigator.of(scaffoldKey.currentContext).pushReplacementNamed('/Pages', arguments: 2);
         } else {
-          scaffoldKey.currentState.showSnackBar(SnackBar(
-            content: Text(S.current.wrong_email_or_password),
+          scaffoldKey?.currentState?.showSnackBar(SnackBar(
+            content: Text(S.of(context).wrong_email_or_password),
           ));
         }
       }).catchError((e) {
         loader.remove();
-        scaffoldKey.currentState.showSnackBar(SnackBar(
-          content: Text(S.current.this_account_not_exist),
+        scaffoldKey?.currentState?.showSnackBar(SnackBar(
+          content: Text(S.of(context).this_account_not_exist),
         ));
       }).whenComplete(() {
         Helper.hideLoader(loader);
@@ -61,14 +61,14 @@ class UserController extends ControllerMVC {
         if (value != null && value.apiToken != null) {
           Navigator.of(scaffoldKey.currentContext).pushReplacementNamed('/Pages', arguments: 2);
         } else {
-          scaffoldKey.currentState.showSnackBar(SnackBar(
-            content: Text(S.current.wrong_email_or_password),
+          scaffoldKey?.currentState?.showSnackBar(SnackBar(
+            content: Text(S.of(context).wrong_email_or_password),
           ));
         }
       }).catchError((e) {
-        loader.remove();
-        scaffoldKey.currentState.showSnackBar(SnackBar(
-          content: Text(S.current.this_email_account_exists),
+        loader?.remove();
+        scaffoldKey?.currentState?.showSnackBar(SnackBar(
+          content: Text(S.of(context).this_email_account_exists),
         ));
       }).whenComplete(() {
         Helper.hideLoader(loader);
@@ -83,10 +83,10 @@ class UserController extends ControllerMVC {
       Overlay.of(context).insert(loader);
       repository.resetPassword(user).then((value) {
         if (value != null && value == true) {
-          scaffoldKey.currentState.showSnackBar(SnackBar(
-            content: Text(S.current.your_reset_link_has_been_sent_to_your_email),
+          scaffoldKey?.currentState?.showSnackBar(SnackBar(
+            content: Text(S.of(context).your_reset_link_has_been_sent_to_your_email),
             action: SnackBarAction(
-              label: S.current.login,
+              label: S.of(context).login,
               onPressed: () {
                 Navigator.of(scaffoldKey.currentContext).pushReplacementNamed('/Login');
               },
@@ -95,8 +95,8 @@ class UserController extends ControllerMVC {
           ));
         } else {
           loader.remove();
-          scaffoldKey.currentState.showSnackBar(SnackBar(
-            content: Text(S.current.error_verify_email_settings),
+          scaffoldKey?.currentState?.showSnackBar(SnackBar(
+            content: Text(S.of(context).error_verify_email_settings),
           ));
         }
       }).whenComplete(() {

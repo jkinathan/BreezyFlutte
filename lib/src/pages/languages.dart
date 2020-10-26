@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../elements/SearchBarWidget.dart';
 import '../elements/ShoppingCartButtonWidget.dart';
 import '../models/language.dart';
@@ -29,7 +29,7 @@ class _LanguagesWidgetState extends State<LanguagesWidget> {
         centerTitle: true,
         title: Text(
           S.of(context).languages,
-          style: Theme.of(context).textTheme.title.merge(TextStyle(letterSpacing: 1.3)),
+          style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 1.3)),
         ),
         actions: <Widget>[
           new ShoppingCartButtonWidget(iconColor: Theme.of(context).hintColor, labelColor: Theme.of(context).accentColor),
@@ -59,7 +59,7 @@ class _LanguagesWidgetState extends State<LanguagesWidget> {
                   S.of(context).app_language,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: Theme.of(context).textTheme.display1,
+                  style: Theme.of(context).textTheme.headline4,
                 ),
                 subtitle: Text(S.of(context).select_your_preferred_languages),
               ),
@@ -77,12 +77,18 @@ class _LanguagesWidgetState extends State<LanguagesWidget> {
                 Language _language = languagesList.languages.elementAt(index);
                 settingRepo.getDefaultLanguage(settingRepo.setting.value.mobileLanguage.value.languageCode).then((_langCode) {
                   if (_langCode == _language.code) {
-                    _language.selected = true;
+                    setState(() {
+                      _language.selected = true;
+                    });
                   }
                 });
                 return InkWell(
                   onTap: () async {
-                    settingRepo.setting.value.mobileLanguage.value = new Locale(_language.code, '');
+                    var _lang = _language.code.split("_");
+                    if (_lang.length > 1)
+                      settingRepo.setting.value.mobileLanguage.value = new Locale(_lang.elementAt(0), _lang.elementAt(1));
+                    else
+                      settingRepo.setting.value.mobileLanguage.value = new Locale(_lang.elementAt(0));
                     settingRepo.setting.notifyListeners();
                     languagesList.languages.forEach((_l) {
                       setState(() {
@@ -138,7 +144,7 @@ class _LanguagesWidgetState extends State<LanguagesWidget> {
                                 _language.englishName,
                                 overflow: TextOverflow.ellipsis,
                                 maxLines: 2,
-                                style: Theme.of(context).textTheme.subhead,
+                                style: Theme.of(context).textTheme.subtitle1,
                               ),
                               Text(
                                 _language.localName,

@@ -1,3 +1,4 @@
+import '../helpers/custom_trace.dart';
 import '../models/media.dart';
 
 class User {
@@ -43,7 +44,7 @@ class User {
       }
       image = jsonMap['media'] != null && (jsonMap['media'] as List).length > 0 ? Media.fromJSON(jsonMap['media'][0]) : new Media();
     } catch (e) {
-      print(e);
+      print(CustomTrace(StackTrace.current, message: e));
     }
   }
 
@@ -69,5 +70,9 @@ class User {
     var map = this.toMap();
     map["auth"] = this.auth;
     return map.toString();
+  }
+
+  bool profileCompleted() {
+    return address != null && address != '' && phone != null && phone != '';
   }
 }

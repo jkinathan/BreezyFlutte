@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/category_controller.dart';
 import '../elements/AddToCartAlertDialog.dart';
 import '../elements/CircularLoadingWidget.dart';
@@ -50,12 +50,17 @@ class _CategoryWidgetState extends StateMVC<CategoryWidget> {
         Navigator.of(context).pushReplacementNamed('/Category', arguments: RouteArgument(id: widget.routeArgument.id));
       }),
       appBar: AppBar(
+        leading: new IconButton(
+          icon: new Icon(Icons.sort, color: Theme.of(context).hintColor),
+          onPressed: () => _con.scaffoldKey?.currentState?.openDrawer(),
+        ),
+        automaticallyImplyLeading: false,
         backgroundColor: Colors.transparent,
         elevation: 0,
         centerTitle: true,
         title: Text(
           S.of(context).category,
-          style: Theme.of(context).textTheme.title.merge(TextStyle(letterSpacing: 0)),
+          style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 0)),
         ),
         actions: <Widget>[
           _con.loadCart
@@ -83,7 +88,7 @@ class _CategoryWidgetState extends StateMVC<CategoryWidget> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: SearchBarWidget(onClickFilter: (filter) {
-                  _con.scaffoldKey.currentState.openEndDrawer();
+                  _con.scaffoldKey?.currentState?.openEndDrawer();
                 }),
               ),
               SizedBox(height: 10),
@@ -99,7 +104,7 @@ class _CategoryWidgetState extends StateMVC<CategoryWidget> {
                     _con.category?.name ?? '',
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                    style: Theme.of(context).textTheme.display1,
+                    style: Theme.of(context).textTheme.headline4,
                   ),
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,

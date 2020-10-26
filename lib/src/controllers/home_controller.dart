@@ -6,13 +6,16 @@ import '../models/category.dart';
 import '../models/food.dart';
 import '../models/restaurant.dart';
 import '../models/review.dart';
+import '../models/slide.dart';
 import '../repository/category_repository.dart';
 import '../repository/food_repository.dart';
 import '../repository/restaurant_repository.dart';
 import '../repository/settings_repository.dart';
+import '../repository/slider_repository.dart';
 
 class HomeController extends ControllerMVC {
   List<Category> categories = <Category>[];
+  List<Slide> slides = <Slide>[];
   List<Restaurant> topRestaurants = <Restaurant>[];
   List<Restaurant> popularRestaurants = <Restaurant>[];
   List<Review> recentReviews = <Review>[];
@@ -20,10 +23,20 @@ class HomeController extends ControllerMVC {
 
   HomeController() {
     listenForTopRestaurants();
+    listenForSlides();
     listenForTrendingFoods();
     listenForCategories();
     listenForPopularRestaurants();
     listenForRecentReviews();
+  }
+
+  Future<void> listenForSlides() async {
+    final Stream<Slide> stream = await getSlides();
+    stream.listen((Slide _slide) {
+      setState(() => slides.add(_slide));
+    }, onError: (a) {
+      print(a);
+    }, onDone: () {});
   }
 
   Future<void> listenForCategories() async {
@@ -58,6 +71,8 @@ class HomeController extends ControllerMVC {
 
   Future<void> listenForTrendingFoods() async {
     final Stream<Food> stream = await getTrendingFoods(deliveryAddress.value);
+    print("We are herree........................");
+    print(deliveryAddress.value);
     stream.listen((Food _food) {
       setState(() => trendingFoods.add(_food));
     }, onError: (a) {
@@ -79,12 +94,14 @@ class HomeController extends ControllerMVC {
 
   Future<void> refreshHome() async {
     setState(() {
+      slides = <Slide>[];
       categories = <Category>[];
       topRestaurants = <Restaurant>[];
       popularRestaurants = <Restaurant>[];
       recentReviews = <Review>[];
       trendingFoods = <Food>[];
     });
+    await listenForSlides();
     await listenForTopRestaurants();
     await listenForTrendingFoods();
     await listenForCategories();

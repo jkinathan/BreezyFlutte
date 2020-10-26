@@ -1,10 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../helpers/helper.dart';
 import '../models/restaurant.dart';
 import '../models/route_argument.dart';
+import '../repository/settings_repository.dart';
 
 // ignore: must_be_immutable
 class CardWidget extends StatelessWidget {
@@ -103,7 +104,7 @@ class CardWidget extends StatelessWidget {
                         restaurant.name,
                         overflow: TextOverflow.fade,
                         softWrap: false,
-                        style: Theme.of(context).textTheme.subhead,
+                        style: Theme.of(context).textTheme.subtitle1,
                       ),
                       Text(
                         Helper.skipHtml(restaurant.description),
@@ -133,7 +134,7 @@ class CardWidget extends StatelessWidget {
                       ),
                       restaurant.distance > 0
                           ? Text(
-                              Helper.getDistance(restaurant.distance),
+                              Helper.getDistance(restaurant.distance, Helper.of(context).trans(setting.value.distanceUnit)),
                               overflow: TextOverflow.fade,
                               maxLines: 1,
                               softWrap: false,

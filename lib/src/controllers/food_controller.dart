@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../models/cart.dart';
-import '../models/favorite.dart';
 import '../models/extra.dart';
+import '../models/favorite.dart';
 import '../models/food.dart';
 import '../repository/cart_repository.dart';
 import '../repository/food_repository.dart';
@@ -29,7 +29,7 @@ class FoodController extends ControllerMVC {
     }, onError: (a) {
       print(a);
       scaffoldKey.currentState?.showSnackBar(SnackBar(
-        content: Text(S.current.verify_your_internet_connection),
+        content: Text(S.of(context).verify_your_internet_connection),
       ));
     }, onDone: () {
       calculateTotal();
@@ -82,7 +82,7 @@ class FoodController extends ControllerMVC {
         });
       }).whenComplete(() {
         scaffoldKey?.currentState?.showSnackBar(SnackBar(
-          content: Text(S.current.this_food_was_added_to_cart),
+          content: Text(S.of(context).this_food_was_added_to_cart),
         ));
       });
     } else {
@@ -93,7 +93,7 @@ class FoodController extends ControllerMVC {
         });
       }).whenComplete(() {
         scaffoldKey?.currentState?.showSnackBar(SnackBar(
-          content: Text(S.current.this_food_was_added_to_cart),
+          content: Text(S.of(context).this_food_was_added_to_cart),
         ));
       });
     }
@@ -113,8 +113,8 @@ class FoodController extends ControllerMVC {
       setState(() {
         this.favorite = value;
       });
-      scaffoldKey.currentState.showSnackBar(SnackBar(
-        content: Text('This food was added to favorite'),
+      scaffoldKey?.currentState?.showSnackBar(SnackBar(
+        content: Text(S.of(context).thisFoodWasAddedToFavorite),
       ));
     });
   }
@@ -124,8 +124,8 @@ class FoodController extends ControllerMVC {
       setState(() {
         this.favorite = new Favorite();
       });
-      scaffoldKey.currentState.showSnackBar(SnackBar(
-        content: Text('This food was removed from favorites'),
+      scaffoldKey?.currentState?.showSnackBar(SnackBar(
+        content: Text(S.of(context).thisFoodWasRemovedFromFavorites),
       ));
     });
   }
@@ -134,12 +134,12 @@ class FoodController extends ControllerMVC {
     var _id = food.id;
     food = new Food();
     listenForFavorite(foodId: _id);
-    listenForFood(foodId: _id, message: 'Food refreshed successfuly');
+    listenForFood(foodId: _id, message: S.of(context).foodRefreshedSuccessfuly);
   }
 
   void calculateTotal() {
     total = food?.price ?? 0;
-    food.extras.forEach((extra) {
+    food?.extras?.forEach((extra) {
       total += extra.checked ? extra.price : 0;
     });
     total *= quantity;

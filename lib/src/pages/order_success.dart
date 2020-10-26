@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/checkout_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../helpers/helper.dart';
@@ -28,7 +28,7 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
   void initState() {
     // route param contains the payment method
     _con.payment = new Payment(widget.routeArgument.param);
-    _con.listenForCarts(withAddOrder: true);
+    _con.listenForCarts();
     super.initState();
   }
 
@@ -50,7 +50,7 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
           centerTitle: true,
           title: Text(
             S.of(context).confirmation,
-            style: Theme.of(context).textTheme.title.merge(TextStyle(letterSpacing: 1.3)),
+            style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 1.3)),
           ),
         ),
         body: _con.carts.isEmpty
@@ -121,7 +121,7 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
                           child: Text(
                             S.of(context).your_order_has_been_successfully_submitted,
                             textAlign: TextAlign.center,
-                            style: Theme.of(context).textTheme.display2.merge(TextStyle(fontWeight: FontWeight.w300)),
+                            style: Theme.of(context).textTheme.headline3.merge(TextStyle(fontWeight: FontWeight.w300)),
                           ),
                         ),
                       ],
@@ -147,10 +147,10 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
                                 Expanded(
                                   child: Text(
                                     S.of(context).subtotal,
-                                    style: Theme.of(context).textTheme.body2,
+                                    style: Theme.of(context).textTheme.bodyText1,
                                   ),
                                 ),
-                                Helper.getPrice(_con.subTotal, context, style: Theme.of(context).textTheme.subhead)
+                                Helper.getPrice(_con.subTotal, context, style: Theme.of(context).textTheme.subtitle1)
                               ],
                             ),
                             SizedBox(height: 3),
@@ -161,10 +161,10 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
                                       Expanded(
                                         child: Text(
                                           S.of(context).delivery_fee,
-                                          style: Theme.of(context).textTheme.body2,
+                                          style: Theme.of(context).textTheme.bodyText1,
                                         ),
                                       ),
-                                      Helper.getPrice(_con.carts[0].food.restaurant.deliveryFee, context, style: Theme.of(context).textTheme.subhead)
+                                      Helper.getPrice(_con.carts[0].food.restaurant.deliveryFee, context, style: Theme.of(context).textTheme.subtitle1)
                                     ],
                                   ),
                             SizedBox(height: 3),
@@ -173,10 +173,10 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
                                 Expanded(
                                   child: Text(
                                     "${S.of(context).tax} (${_con.carts[0].food.restaurant.defaultTax}%)",
-                                    style: Theme.of(context).textTheme.body2,
+                                    style: Theme.of(context).textTheme.bodyText1,
                                   ),
                                 ),
-                                Helper.getPrice(_con.taxAmount, context, style: Theme.of(context).textTheme.subhead)
+                                Helper.getPrice(_con.taxAmount, context, style: Theme.of(context).textTheme.subtitle1)
                               ],
                             ),
                             Divider(height: 30),
@@ -185,10 +185,10 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
                                 Expanded(
                                   child: Text(
                                     S.of(context).total,
-                                    style: Theme.of(context).textTheme.title,
+                                    style: Theme.of(context).textTheme.headline6,
                                   ),
                                 ),
-                                Helper.getPrice(_con.total, context, style: Theme.of(context).textTheme.title)
+                                Helper.getPrice(_con.total, context, style: Theme.of(context).textTheme.headline6)
                               ],
                             ),
                             SizedBox(height: 20),

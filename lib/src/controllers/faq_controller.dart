@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../models/faq_category.dart';
 import '../repository/faq_repository.dart';
 
@@ -22,12 +22,12 @@ class FaqController extends ControllerMVC {
       });
     }, onError: (a) {
       print(a);
-      scaffoldKey.currentState.showSnackBar(SnackBar(
-        content: Text(S.current.verify_your_internet_connection),
+      scaffoldKey?.currentState?.showSnackBar(SnackBar(
+        content: Text(S.of(context).verify_your_internet_connection),
       ));
     }, onDone: () {
       if (message != null) {
-        scaffoldKey.currentState.showSnackBar(SnackBar(
+        scaffoldKey?.currentState?.showSnackBar(SnackBar(
           content: Text(message),
         ));
       }
@@ -36,6 +36,6 @@ class FaqController extends ControllerMVC {
 
   Future<void> refreshFaqs() async {
     faqs.clear();
-    listenForFaqs(message: 'Faqs refreshed successfuly');
+    listenForFaqs(message: S.of(context).faqsRefreshedSuccessfuly);
   }
 }

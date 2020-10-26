@@ -4,7 +4,7 @@ import 'package:google_map_location_picker/google_map_location_picker.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/delivery_addresses_controller.dart';
 import '../helpers/app_config.dart' as config;
 import '../models/address.dart';
@@ -49,8 +49,7 @@ class _DeliveryAddressBottomSheetWidgetState extends StateMVC<DeliveryAddressBot
                     LocationResult result = await showLocationPicker(
                       context,
                       setting.value.googleMapsKey,
-                      initialCenter:
-                          LatLng(deliveryAddress.value?.latitude ?? 0, deliveryAddress.value?.longitude ?? 0),
+                      initialCenter: LatLng(deliveryAddress.value?.latitude ?? 0, deliveryAddress.value?.longitude ?? 0),
                       //automaticallyAnimateToCurrentLocation: true,
                       //mapStylePath: 'assets/mapStyle.json',
                       myLocationButtonEnabled: true,
@@ -70,8 +69,7 @@ class _DeliveryAddressBottomSheetWidgetState extends StateMVC<DeliveryAddressBot
                       Container(
                         height: 36,
                         width: 36,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(Radius.circular(5)), color: Theme.of(context).focusColor),
+                        decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(5)), color: Theme.of(context).focusColor),
                         child: Icon(
                           Icons.add_circle_outline,
                           color: Theme.of(context).primaryColor,
@@ -91,7 +89,7 @@ class _DeliveryAddressBottomSheetWidgetState extends StateMVC<DeliveryAddressBot
                                     S.of(context).add_new_delivery_address,
                                     overflow: TextOverflow.ellipsis,
                                     maxLines: 2,
-                                    style: Theme.of(context).textTheme.body1,
+                                    style: Theme.of(context).textTheme.bodyText2,
                                   ),
                                 ],
                               ),
@@ -120,8 +118,7 @@ class _DeliveryAddressBottomSheetWidgetState extends StateMVC<DeliveryAddressBot
                       Container(
                         height: 36,
                         width: 36,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(Radius.circular(5)), color: Theme.of(context).accentColor),
+                        decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(5)), color: Theme.of(context).accentColor),
                         child: Icon(
                           Icons.my_location,
                           color: Theme.of(context).primaryColor,
@@ -141,7 +138,7 @@ class _DeliveryAddressBottomSheetWidgetState extends StateMVC<DeliveryAddressBot
                                     S.of(context).current_location,
                                     overflow: TextOverflow.ellipsis,
                                     maxLines: 2,
-                                    style: Theme.of(context).textTheme.body1,
+                                    style: Theme.of(context).textTheme.bodyText2,
                                   ),
                                 ],
                               ),
@@ -197,9 +194,7 @@ class _DeliveryAddressBottomSheetWidgetState extends StateMVC<DeliveryAddressBot
                           Container(
                             height: 36,
                             width: 36,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(5)),
-                                color: Theme.of(context).focusColor),
+                            decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(5)), color: Theme.of(context).focusColor),
                             child: Icon(
                               Icons.place,
                               color: Theme.of(context).primaryColor,
@@ -219,7 +214,7 @@ class _DeliveryAddressBottomSheetWidgetState extends StateMVC<DeliveryAddressBot
                                         _con.addresses.elementAt(index).address,
                                         overflow: TextOverflow.ellipsis,
                                         maxLines: 3,
-                                        style: Theme.of(context).textTheme.body1,
+                                        style: Theme.of(context).textTheme.bodyText2,
                                       ),
                                     ],
                                   ),

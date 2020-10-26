@@ -43,7 +43,7 @@ class _FoodGridItemWidgetState extends State<FoodGridItemWidget> {
               SizedBox(height: 5),
               Text(
                 widget.food.name,
-                style: Theme.of(context).textTheme.body2,
+                style: Theme.of(context).textTheme.bodyText1,
                 overflow: TextOverflow.ellipsis,
               ),
               SizedBox(height: 2),

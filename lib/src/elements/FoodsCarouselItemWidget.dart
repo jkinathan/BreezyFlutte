@@ -49,12 +49,15 @@ class FoodsCarouselItemWidget extends StatelessWidget {
               Container(
                 margin: EdgeInsetsDirectional.only(end: 25, top: 5),
                 padding: EdgeInsets.symmetric(horizontal: 10, vertical: 3),
-                decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(100)), color: Theme.of(context).accentColor),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(100)),
+                  color: food.discountPrice > 0 ? Colors.red : Theme.of(context).accentColor,
+                ),
                 alignment: AlignmentDirectional.topEnd,
                 child: Helper.getPrice(
                   food.price,
                   context,
-                  style: Theme.of(context).textTheme.body2.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                  style: Theme.of(context).textTheme.bodyText1.merge(TextStyle(color: Theme.of(context).primaryColor)),
                 ),
               ),
             ],
@@ -69,7 +72,7 @@ class FoodsCarouselItemWidget extends StatelessWidget {
                     this.food.name,
                     overflow: TextOverflow.fade,
                     softWrap: false,
-                    style: Theme.of(context).textTheme.body1,
+                    style: Theme.of(context).textTheme.bodyText2,
                   ),
                   Text(
                     food.restaurant.name,

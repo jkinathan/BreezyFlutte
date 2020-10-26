@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/reviews_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../models/route_argument.dart';
@@ -76,7 +76,7 @@ class _ReviewsWidgetState extends StateMVC<ReviewsWidget> {
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       children: <Widget>[
                                         Text(_con.order.foodOrders[0].food.restaurant.rate,
-                                            style: Theme.of(context).textTheme.display2.merge(TextStyle(color: Theme.of(context).primaryColor))),
+                                            style: Theme.of(context).textTheme.headline3.merge(TextStyle(color: Theme.of(context).primaryColor))),
                                         Icon(
                                           Icons.star_border,
                                           color: Theme.of(context).primaryColor,
@@ -112,7 +112,7 @@ class _ReviewsWidgetState extends StateMVC<ReviewsWidget> {
                           softWrap: false,
                           maxLines: 2,
                           textAlign: TextAlign.center,
-                          style: Theme.of(context).textTheme.display2,
+                          style: Theme.of(context).textTheme.headline3,
                         ),
                         Container(
                           width: MediaQuery.of(context).size.width,
@@ -127,7 +127,8 @@ class _ReviewsWidgetState extends StateMVC<ReviewsWidget> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             mainAxisSize: MainAxisSize.max,
                             children: <Widget>[
-                              Text(S.of(context).how_would_you_rate_this_restaurant_, textAlign: TextAlign.center, style: Theme.of(context).textTheme.subhead),
+                              Text(S.of(context).how_would_you_rate_this_restaurant_,
+                                  textAlign: TextAlign.center, style: Theme.of(context).textTheme.subtitle1),
                               SizedBox(height: 10),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
@@ -197,7 +198,7 @@ class _ReviewsWidgetState extends StateMVC<ReviewsWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 mainAxisSize: MainAxisSize.max,
                                 children: <Widget>[
-                                  Text(_con.foodsOfOrder[index].name, textAlign: TextAlign.center, style: Theme.of(context).textTheme.subhead),
+                                  Text(_con.foodsOfOrder[index].name, textAlign: TextAlign.center, style: Theme.of(context).textTheme.subtitle1),
                                   SizedBox(height: 10),
                                   Row(
                                     mainAxisAlignment: MainAxisAlignment.center,

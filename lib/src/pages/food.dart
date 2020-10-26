@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/food_controller.dart';
 import '../elements/AddToCartAlertDialog.dart';
 import '../elements/CircularLoadingWidget.dart';
@@ -36,8 +36,8 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
   @override
   void initState() {
     _con.listenForFood(foodId: widget.routeArgument.id);
-    _con.listenForFavorite(foodId: widget.routeArgument.id);
     _con.listenForCart();
+    _con.listenForFavorite(foodId: widget.routeArgument.id);
     super.initState();
   }
 
@@ -45,7 +45,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _con.scaffoldKey,
-      body: _con.food == null
+      body: _con.food == null || _con.food?.image == null
           ? CircularLoadingWidget(height: 500)
           : RefreshIndicator(
               onRefresh: _con.refreshFood,
@@ -53,7 +53,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                 fit: StackFit.expand,
                 children: <Widget>[
                   Container(
-                    margin: EdgeInsets.only(bottom: 120),
+                    margin: EdgeInsets.only(bottom: 125),
                     padding: EdgeInsets.only(bottom: 15),
                     child: CustomScrollView(
                       primary: true,
@@ -95,16 +95,16 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: <Widget>[
                                           Text(
-                                            _con.food.name,
+                                            _con.food?.name ?? '',
                                             overflow: TextOverflow.ellipsis,
                                             maxLines: 2,
-                                            style: Theme.of(context).textTheme.display2,
+                                            style: Theme.of(context).textTheme.headline3,
                                           ),
                                           Text(
-                                            _con.food.restaurant.name,
+                                            _con.food?.restaurant?.name ?? '',
                                             overflow: TextOverflow.ellipsis,
                                             maxLines: 2,
-                                            style: Theme.of(context).textTheme.body1,
+                                            style: Theme.of(context).textTheme.bodyText2,
                                           ),
                                         ],
                                       ),
@@ -117,11 +117,11 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                           Helper.getPrice(
                                             _con.food.price,
                                             context,
-                                            style: Theme.of(context).textTheme.display3,
+                                            style: Theme.of(context).textTheme.headline2,
                                           ),
                                           _con.food.discountPrice > 0
                                               ? Helper.getPrice(_con.food.discountPrice, context,
-                                                  style: Theme.of(context).textTheme.body1.merge(TextStyle(decoration: TextDecoration.lineThrough)))
+                                                  style: Theme.of(context).textTheme.bodyText2.merge(TextStyle(decoration: TextDecoration.lineThrough)))
                                               : SizedBox(height: 0),
                                         ],
                                       ),
@@ -132,9 +132,10 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                   children: <Widget>[
                                     Container(
                                       padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
-                                      decoration:
-                                          BoxDecoration(color: _con.food.deliverable ? Colors.green : Colors.orange, borderRadius: BorderRadius.circular(24)),
-                                      child: _con.food.deliverable
+                                      decoration: BoxDecoration(
+                                          color: Helper.canDelivery(_con.food.restaurant) && _con.food.deliverable ? Colors.green : Colors.orange,
+                                          borderRadius: BorderRadius.circular(24)),
+                                      child: Helper.canDelivery(_con.food.restaurant) && _con.food.deliverable
                                           ? Text(
                                               S.of(context).deliverable,
                                               style: Theme.of(context).textTheme.caption.merge(TextStyle(color: Theme.of(context).primaryColor)),
@@ -173,7 +174,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                   ),
                                   title: Text(
                                     S.of(context).extras,
-                                    style: Theme.of(context).textTheme.subhead,
+                                    style: Theme.of(context).textTheme.subtitle1,
                                   ),
                                   subtitle: Text(
                                     S.of(context).select_extras_to_add_them_on_the_food,
@@ -197,7 +198,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                                 ),
                                                 title: Text(
                                                   extraGroup.name,
-                                                  style: Theme.of(context).textTheme.subhead,
+                                                  style: Theme.of(context).textTheme.subtitle1,
                                                 ),
                                               ),
                                               ListView.separated(
@@ -225,21 +226,6 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                         primary: false,
                                         shrinkWrap: true,
                                       ),
-                                ListView.separated(
-                                  padding: EdgeInsets.all(0),
-                                  itemBuilder: (context, index) {
-                                    return ExtraItemWidget(
-                                      extra: _con.food.extras.elementAt(index),
-                                      onChanged: _con.calculateTotal,
-                                    );
-                                  },
-                                  separatorBuilder: (context, index) {
-                                    return SizedBox(height: 20);
-                                  },
-                                  itemCount: _con.food.extras.length,
-                                  primary: false,
-                                  shrinkWrap: true,
-                                ),
                                 ListTile(
                                   dense: true,
                                   contentPadding: EdgeInsets.symmetric(vertical: 10),
@@ -249,7 +235,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                   ),
                                   title: Text(
                                     S.of(context).ingredients,
-                                    style: Theme.of(context).textTheme.subhead,
+                                    style: Theme.of(context).textTheme.subtitle1,
                                   ),
                                 ),
                                 Helper.applyHtml(context, _con.food.ingredients, style: TextStyle(fontSize: 12)),
@@ -262,7 +248,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                   ),
                                   title: Text(
                                     S.of(context).nutrition,
-                                    style: Theme.of(context).textTheme.subhead,
+                                    style: Theme.of(context).textTheme.subtitle1,
                                   ),
                                 ),
                                 Wrap(
@@ -281,7 +267,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                           Text(_con.food.nutritions.elementAt(index).name,
                                               overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.caption),
                                           Text(_con.food.nutritions.elementAt(index).quantity.toString(),
-                                              overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.headline),
+                                              overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.headline5),
                                         ],
                                       ),
                                     );
@@ -296,7 +282,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                   ),
                                   title: Text(
                                     S.of(context).reviews,
-                                    style: Theme.of(context).textTheme.subhead,
+                                    style: Theme.of(context).textTheme.subtitle1,
                                   ),
                                 ),
                                 ReviewsListWidget(
@@ -321,13 +307,13 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                         : ShoppingCartFloatButtonWidget(
                             iconColor: Theme.of(context).primaryColor,
                             labelColor: Theme.of(context).hintColor,
-                            food: _con.food,
+                            routeArgument: RouteArgument(param: '/Food', id: _con.food.id),
                           ),
                   ),
                   Positioned(
                     bottom: 0,
                     child: Container(
-                      height: 140,
+                      height: 150,
                       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
                       decoration: BoxDecoration(
                           color: Theme.of(context).primaryColor,
@@ -344,7 +330,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                 Expanded(
                                   child: Text(
                                     S.of(context).quantity,
-                                    style: Theme.of(context).textTheme.subhead,
+                                    style: Theme.of(context).textTheme.subtitle1,
                                   ),
                                 ),
                                 Row(
@@ -359,7 +345,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                       icon: Icon(Icons.remove_circle_outline),
                                       color: Theme.of(context).hintColor,
                                     ),
-                                    Text(_con.quantity.toString(), style: Theme.of(context).textTheme.subhead),
+                                    Text(_con.quantity.toString(), style: Theme.of(context).textTheme.subtitle1),
                                     IconButton(
                                       onPressed: () {
                                         _con.incrementQuantity();
@@ -455,7 +441,7 @@ class _FoodWidgetState extends StateMVC<FoodWidget> {
                                       child: Helper.getPrice(
                                         _con.total,
                                         context,
-                                        style: Theme.of(context).textTheme.display1.merge(TextStyle(color: Theme.of(context).primaryColor)),
+                                        style: Theme.of(context).textTheme.headline4.merge(TextStyle(color: Theme.of(context).primaryColor)),
                                       ),
                                     )
                                   ],

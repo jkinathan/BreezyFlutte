@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../models/address.dart' as model;
 import '../models/cart.dart';
 import '../repository/cart_repository.dart';
@@ -27,12 +27,12 @@ class DeliveryAddressesController extends ControllerMVC with ChangeNotifier {
       });
     }, onError: (a) {
       print(a);
-      scaffoldKey.currentState.showSnackBar(SnackBar(
-        content: Text(S.current.verify_your_internet_connection),
+      scaffoldKey?.currentState?.showSnackBar(SnackBar(
+        content: Text(S.of(context).verify_your_internet_connection),
       ));
     }, onDone: () {
       if (message != null) {
-        scaffoldKey.currentState.showSnackBar(SnackBar(
+        scaffoldKey?.currentState?.showSnackBar(SnackBar(
           content: Text(message),
         ));
       }
@@ -48,7 +48,7 @@ class DeliveryAddressesController extends ControllerMVC with ChangeNotifier {
 
   Future<void> refreshAddresses() async {
     addresses.clear();
-    listenForAddresses(message: S.current.addresses_refreshed_successfuly);
+    listenForAddresses(message: S.of(context).addresses_refreshed_successfuly);
   }
 
   Future<void> changeDeliveryAddress(model.Address address) async {
@@ -73,7 +73,7 @@ class DeliveryAddressesController extends ControllerMVC with ChangeNotifier {
         this.addresses.insert(0, value);
       });
       scaffoldKey?.currentState?.showSnackBar(SnackBar(
-        content: Text(S.current.new_address_added_successfully),
+        content: Text(S.of(context).new_address_added_successfully),
       ));
     });
   }
@@ -89,7 +89,7 @@ class DeliveryAddressesController extends ControllerMVC with ChangeNotifier {
     userRepo.updateAddress(address).then((value) {
       setState(() {});
       addresses.clear();
-      listenForAddresses(message: S.current.the_address_updated_successfully);
+      listenForAddresses(message: S.of(context).the_address_updated_successfully);
     });
   }
 
@@ -98,8 +98,8 @@ class DeliveryAddressesController extends ControllerMVC with ChangeNotifier {
       setState(() {
         this.addresses.remove(address);
       });
-      scaffoldKey.currentState.showSnackBar(SnackBar(
-        content: Text(S.current.delivery_address_removed_successfully),
+      scaffoldKey?.currentState?.showSnackBar(SnackBar(
+        content: Text(S.of(context).delivery_address_removed_successfully),
       ));
     });
   }

@@ -3,7 +3,7 @@ import 'package:flutter_inappbrowser/flutter_inappbrowser.dart';
 import 'package:global_configuration/global_configuration.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/paypal_controller.dart';
 import '../models/route_argument.dart';
 
@@ -30,7 +30,7 @@ class _PayPalPaymentWidgetState extends StateMVC<PayPalPaymentWidget> {
         centerTitle: true,
         title: Text(
           S.of(context).paypal_payment,
-          style: Theme.of(context).textTheme.title.merge(TextStyle(letterSpacing: 1.3)),
+          style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 1.3)),
         ),
       ),
       body: Stack(

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
 import '../controllers/cart_controller.dart';
-import '../models/food.dart';
 import '../models/route_argument.dart';
 import '../repository/user_repository.dart';
 
@@ -10,13 +9,13 @@ class ShoppingCartFloatButtonWidget extends StatefulWidget {
   const ShoppingCartFloatButtonWidget({
     this.iconColor,
     this.labelColor,
-    this.food,
+    this.routeArgument,
     Key key,
   }) : super(key: key);
 
   final Color iconColor;
   final Color labelColor;
-  final Food food;
+  final RouteArgument routeArgument;
 
   @override
   _ShoppingCartFloatButtonWidgetState createState() => _ShoppingCartFloatButtonWidgetState();
@@ -46,7 +45,7 @@ class _ShoppingCartFloatButtonWidgetState extends StateMVC<ShoppingCartFloatButt
         shape: StadiumBorder(),
         onPressed: () {
           if (currentUser.value.apiToken != null) {
-            Navigator.of(context).pushNamed('/Cart', arguments: RouteArgument(param: '/Food', id: widget.food.id));
+            Navigator.of(context).pushNamed('/Cart', arguments: widget.routeArgument);
           } else {
             Navigator.of(context).pushNamed('/Login');
           }
@@ -75,12 +74,5 @@ class _ShoppingCartFloatButtonWidgetState extends StateMVC<ShoppingCartFloatButt
         ),
       ),
     );
-//    return FlatButton(
-//      onPressed: () {
-//        print('to shopping cart');
-//      },
-//      child:
-//      color: Colors.transparent,
-//    );
   }
 }

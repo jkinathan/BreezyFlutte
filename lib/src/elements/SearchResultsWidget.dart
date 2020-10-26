@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
-import '../../generated/i18n.dart';
+import '../../generated/l10n.dart';
 import '../controllers/search_controller.dart';
 import '../elements/CardWidget.dart';
 import '../elements/CircularLoadingWidget.dart';
@@ -50,7 +50,7 @@ class _SearchResultWidgetState extends StateMVC<SearchResultWidget> {
               ),
               title: Text(
                 S.of(context).search,
-                style: Theme.of(context).textTheme.display1,
+                style: Theme.of(context).textTheme.headline4,
               ),
               subtitle: Text(
                 S.of(context).ordered_by_nearby_first,
@@ -89,7 +89,7 @@ class _SearchResultWidgetState extends StateMVC<SearchResultWidget> {
                           contentPadding: EdgeInsets.symmetric(vertical: 0),
                           title: Text(
                             S.of(context).foods_results,
-                            style: Theme.of(context).textTheme.subhead,
+                            style: Theme.of(context).textTheme.subtitle1,
                           ),
                         ),
                       ),
@@ -115,7 +115,7 @@ class _SearchResultWidgetState extends StateMVC<SearchResultWidget> {
                           contentPadding: EdgeInsets.symmetric(vertical: 0),
                           title: Text(
                             S.of(context).restaurants_results,
-                            style: Theme.of(context).textTheme.subhead,
+                            style: Theme.of(context).textTheme.subtitle1,
                           ),
                         ),
                       ),
